@@ -1,0 +1,127 @@
+/** @jsx jsx */
+import { jsx } from "theme-ui"
+import { graphql, useStaticQuery } from "gatsby"
+import React, { useEffect, useRef, useState } from "react";
+import {
+	Label,
+	Input,
+	Select,
+	Textarea,
+	Radio,
+	Checkbox,
+	Slider,
+	Button,
+	Flex,
+	Spinner,
+	Message,
+	Box,
+	Heading,
+} from 'theme-ui'
+import { sendEmail } from "../helpers/helpers";
+import { motion, AnimatePresence } from "framer-motion"
+import SlideToggle from "./SlideToggle";
+import FlexCenter from "./FlexCenter";
+
+export default function () {
+	const data = useStaticQuery(graphql`{
+		sanitySiteConfig {
+		  contactEmail
+		}
+	  }`);
+
+	let contactEmail = data.sanitySiteConfig.contactEmail;
+	if (process.env.NODE_ENV == 'development') {
+		contactEmail = 'ryzn.johnson@gmail.com';
+	}
+	// const contactEmail = data.sanitySiteConfig.contactEmail;
+	const [sending, setSending] = useState(false);
+	const [isSubmitted, setIsSubmitted] = useState(false);
+	const [errorMessage, setErrorMessage] = useState('');
+
+	const variants = {
+		open: { height: 'auto', transition: { duration: 0.5 } },
+		closed: { height: 0, transition: { duration: 0.5 } },
+	};
+
+	const handleSubmit = (e) => {
+		e.preventDefault();
+		const formData = new FormData(e.target);
+		const formProps = Object.fromEntries(formData);
+		console.log("submitting", formProps)
+		const body = `Name: ${formProps.name}<br><br>Message:${formProps.message}`;
+		setSending(true);
+		sendEmail(contactEmail, "Contact from bennetsilverman.com: " + formProps.subject, body, {
+			replyTo: formProps.email,
+		}).then(() => {
+			console.log('email sent')
+			setSending(false);
+			setIsSubmitted(true);
+		}).catch((e) => {
+			console.error(e)
+			let eMessage = e.message || e.toString();
+			setErrorMessage(`Something went wrong.  Please try again.  Error was: ${eMessage}`);
+			setSending(false);
+		});
+	}
+
+	const form = useRef(null);
+	useEffect(() => {
+		if (process.env.NODE_ENV == 'development') {
+			fillFields();
+		}
+	})
+
+	function fillFields() {
+		if (!form.current) return;
+		form.current.querySelector('#name').value = 'Ryan J'
+		form.current.querySelector('#email').value = 'ryzn.johnson@gmail.com'
+		form.current.querySelector('#subject').value = 'Test subject'
+		form.current.querySelector('#message').value = 'Hi I have a TEST question for you'
+	}
+
+
+	return (
+		<Box>
+			<motion.div sx={{ overflow: 'hidden' }}
+				variants={variants}
+				initial="open"
+				animate={isSubmitted ? 'closed' : 'open'}
+			>
+				<form ref={form} name="contact" onSubmit={handleSubmit}>
+					<Label htmlFor="name">Name</Label>
+					<Input name="name" id="name" required={true} />
+					<Label htmlFor="email">Email Address</Label>
+					<Input name="email" id="email" type="email" required={true} />
+					<Label htmlFor="subject">Subject</Label>
+					<Input name="subject" id="subject" required={true} />
+					<Label htmlFor="message">Message</Label>
+					<Textarea name="message" id="message" required={true} />
+
+					<Box sx={{ mt: 40 }}>
+						{errorMessage && <Message sx={{ variant: 'messages.error' }}><em>{errorMessage}</em></Message>}
+						<Flex sx={{ justifyContent: 'center' }}>
+							<Button type="submit" sx={{
+								variant: "buttons.outlined"
+							}}>Send It!</Button>
+							{sending && <Spinner />}
+						</Flex>
+					</Box>
+				</form>
+			</motion.div>
+			<FlexCenter sx={{ m: 30, textAlign: 'center' }}>
+				<motion.div sx={{ overflow: 'hidden' }}
+					variants={variants}
+					initial="closed"
+					animate={isSubmitted ? 'open' : 'closed'}
+				>
+					<Heading>Thank You For Reaching Out!</Heading>
+					<Heading as='h3'>We will get back to you ASAP.</Heading>
+				</motion.div>
+			</FlexCenter>
+
+		</Box>
+
+
+
+	)
+}
