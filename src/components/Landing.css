@@ -1,0 +1,14 @@
+.landing {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing > p {
+  max-width: 80ch;
+}
+.landing-emphasis {
+  font-weight: bold;
+  text-transform: uppercase;
+}
