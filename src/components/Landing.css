@@ -10,7 +10,8 @@
   border: 1px solid orange;
 }
 .landing > * {
-  width: 50%;
+  /* width: 50%; */
+  /* margin-left: -20px; */
   border: 1px solid black;
 }
 .landing-infoWrapper {
@@ -19,17 +20,18 @@
   justify-content: center; */
   /* align-items: center; */
   /* margin-top: 15rem; */
+  margin-left: -50%;
   text-align: left;
 }
 .landing h1 {
   width: fit-content;
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-transform: uppercase;
   color: var(--theme-ui-colors-background);
   background: var(--theme-ui-colors-text);
 }
 .landing p {
-  max-width: 45ch;
+  max-width: 50ch;
 }
 .landing-emphasis {
   font-weight: bold;

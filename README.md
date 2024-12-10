@@ -16,7 +16,14 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Style
 
+- add breakpoints to landing page
+
 #### CHANGELOG
+
+_1.1.2_
+
+- adjust intro text sizing
+- adjust intro text placement
 
 _1.1.1_
 
