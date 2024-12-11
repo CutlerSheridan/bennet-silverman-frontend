@@ -2,6 +2,7 @@
 import './Landing.css';
 import { jsx } from 'theme-ui';
 import landingVideoMp4 from '../videos/test-vid.mp4';
+import chevron from '../images/chevron-down.svg';
 
 const Landing = () => {
   return (
@@ -25,10 +26,16 @@ const Landing = () => {
           few too many. Oh yeah, and he’s a WGA-nominated writer. Nice.
         </p>
       </div>
+
       <div className="landing-videoWrapper">
         <video autoPlay muted loop playsInLine>
           <source src={landingVideoMp4} type="video/mp4" />
         </video>
+      </div>
+
+      <div className="landing-chevronWrapper">
+        <i class="fa-solid fa-chevron-down"></i>
+        {/* <img src={chevron} alt="" /> */}
       </div>
     </div>
   );

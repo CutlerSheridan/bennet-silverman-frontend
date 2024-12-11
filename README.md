@@ -6,19 +6,41 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- adjust intro text placement
+- add reel button over splash video
 
 #### TODO LATER
 
 ##### Features
 
+- add contact button as homepage footer
+
 ##### Behavior
+
+- stop hamburger links from loading twice
+- get rid of chevron svg + css if unused
 
 ##### Style
 
 - add breakpoints to landing page
+- change header from fixed position to absolute
+- decrease max-width of open hamburger menu
+- remove header link highlight
+- ? add current page indication
+
+##### Notes
+
+- Project taken over after 1.0 from Ryan Johnson
+- Not familiar with Gatsby or Sass so everything bootstrapped from there
+- all .css files originate from me
 
 #### CHANGELOG
+
+_1.1.3_
+
+- add icon pack via Gatsby Script element in index.tsx
+- add downward chevron to landing page
+- justify intro text
+- hide landing video overflow-x via :root in index.css
 
 _1.1.2_
 

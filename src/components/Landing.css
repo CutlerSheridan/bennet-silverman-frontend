@@ -1,37 +1,31 @@
 .landing {
   --video-width: 72vw;
   --max-video-width: 950px;
-  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: var(--video-width);
   max-height: 100vh;
   border: 1px solid orange;
+  overflow: hidden;
 }
 .landing > * {
-  /* width: 50%; */
-  /* margin-left: -20px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .landing-infoWrapper {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
-  /* margin-top: 15rem; */
   margin-left: -50%;
   text-align: left;
 }
 .landing h1 {
   width: fit-content;
-  font-size: 4rem;
+  font-size: 4.2rem;
   text-transform: uppercase;
   color: var(--theme-ui-colors-background);
   background: var(--theme-ui-colors-text);
 }
 .landing p {
-  max-width: 50ch;
+  max-width: 53ch;
+  text-align: justify;
 }
 .landing-emphasis {
   font-weight: bold;
@@ -42,23 +36,36 @@
   position: absolute;
   top: -70px;
   left: 40%;
-  /* height: 20rem;
-  width: 20rem; */
   height: var(--video-width);
   width: var(--video-width);
   max-width: var(--max-video-width);
   max-height: var(--max-video-width);
-  /* background: red; */
-  /* border-radius: 1rem; */
+  /* overflow-y: hidden; */
 }
 .landing-videoWrapper video {
-  position: relative;
-  /* left: -25%;
-  top: -25%; */
+  position: relative; /* this keeps Bennet's name on top of video */
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 1000rem;
   z-index: -1;
   box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.3);
+  /* overflow-y: hidden; */
 }
+
+.landing-chevronWrapper {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 4rem;
+  /* width: 7rem;
+  height: 5rem; */
+}
+/* .landing-chevronWrapper img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  fill: red;
+  stroke: red;
+  filter: invert(73%) sepia(75%) saturate(280%) hue-rotate(359deg)
+    brightness(96%) contrast(90%);
+} */
