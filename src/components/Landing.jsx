@@ -1,8 +1,10 @@
 /** @jsx jsx */
 import './Landing.css';
-import { jsx } from 'theme-ui';
+import { jsx, Button } from 'theme-ui';
+import FlexCenter from '../components/FlexCenter';
+import Link from './Link';
 import landingVideoMp4 from '../videos/test-vid.mp4';
-import chevron from '../images/chevron-down.svg';
+// import chevron from '../images/chevron-down.svg';
 
 const Landing = () => {
   return (
@@ -25,6 +27,16 @@ const Landing = () => {
           and <span className="landing-emphasis">Google Play</span> to name a
           few too many. Oh yeah, and he’s a WGA-nominated writer. Nice.
         </p>
+        <Link to="/contact">
+          <Button
+            sx={{
+              fontSize: [3, 4],
+              variant: 'buttons.outlined',
+            }}
+          >
+            Contact
+          </Button>
+        </Link>
       </div>
 
       <div className="landing-videoWrapper">

@@ -7,12 +7,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 #### TODO NEXT
 
 - add reel button over splash video
+- make landing page mobile-friendly
 
 #### TODO LATER
 
 ##### Features
-
-- add contact button as homepage footer
 
 ##### Behavior
 
@@ -21,11 +20,12 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Style
 
-- add breakpoints to landing page
 - change header from fixed position to absolute
 - decrease max-width of open hamburger menu
 - remove header link highlight
 - ? add current page indication
+- style home page Contact footer
+- make sure landing chevron is correct color
 
 ##### Notes
 
@@ -34,6 +34,13 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - all .css files originate from me
 
 #### CHANGELOG
+
+_1.1.4_
+
+- restructure landing page CSS to make info placement code cleaner
+- add Contact button to landing page
+- fix landing page height
+- change chevron color
 
 _1.1.3_
 
