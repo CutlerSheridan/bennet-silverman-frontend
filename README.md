@@ -21,9 +21,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 - change header from fixed position to absolute
 - decrease max-width of open hamburger menu
+- ? inverse colors of hamburger icon
 - remove header link highlight
 - ? add current page indication
 - style home page Contact footer
+- remove border-top from index.css
 
 ##### Notes
 
@@ -32,6 +34,14 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - all .css files originate from me
 
 #### CHANGELOG
+
+_1.1.6_
+
+- cover logo on homepage
+- change size, spacing of landing h1
+- change size of intro text
+- adjust placement of landing info
+- adjust landing video size, placement
 
 _1.1.5_
 

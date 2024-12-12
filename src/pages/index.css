@@ -1,3 +1,7 @@
 :root {
   overflow-x: hidden;
 }
+
+.mainBody {
+  border-top: 1px solid orange;
+}

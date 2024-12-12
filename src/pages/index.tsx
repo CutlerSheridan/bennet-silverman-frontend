@@ -37,6 +37,7 @@ const IndexPage = ({ location, path }) => {
           <WorksGrid />
         </Box>
       </BannerLoadedContext.Provider>
+
       <FlexCenter mt={[3, 4]} p={[1, 1, 0]}>
         <Link to="/contact">
           <Button

@@ -9,6 +9,8 @@ import landingVideoMp4 from '../videos/test-vid.mp4';
 const Landing = () => {
   return (
     <div className="landing">
+      <div className="landing-logoCover"></div>
+
       <div className="landing-infoWrapper">
         <h1>Bennet Silverman</h1>
         <p>
