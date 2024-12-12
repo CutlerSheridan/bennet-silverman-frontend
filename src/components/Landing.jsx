@@ -43,6 +43,18 @@ const Landing = () => {
         <video autoPlay muted loop playsInLine>
           <source src={landingVideoMp4} type="video/mp4" />
         </video>
+        <div className="landing-videoLink">
+          <Link href="https://www.vimeo.com">
+            <Button
+              sx={{
+                fontSize: [3, 4],
+                variant: 'buttons.onVideo',
+              }}
+            >
+              View Reel
+            </Button>
+          </Link>
+        </div>
       </div>
 
       <div className="landing-chevronWrapper">

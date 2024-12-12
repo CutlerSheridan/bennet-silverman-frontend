@@ -6,7 +6,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- add reel button over splash video
 - make landing page mobile-friendly
 
 #### TODO LATER
@@ -25,7 +24,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - remove header link highlight
 - ? add current page indication
 - style home page Contact footer
-- make sure landing chevron is correct color
 
 ##### Notes
 
@@ -34,6 +32,13 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - all .css files originate from me
 
 #### CHANGELOG
+
+_1.1.5_
+
+- add onVideo style to Button in index.js
+- add reel button over splash video
+- make chevron bounce
+- revert chevron color
 
 _1.1.4_
 

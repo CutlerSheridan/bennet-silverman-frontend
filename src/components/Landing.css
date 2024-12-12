@@ -51,21 +51,44 @@
   z-index: -1;
   box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.3);
 }
+.landing-videoLink {
+  position: relative;
+  left: calc(50% - 4.5ch - 18px);
+  top: -10rem;
+  z-index: 1;
+}
 
 .landing-chevronWrapper {
   position: absolute;
   bottom: 2rem;
   width: 100%;
   text-align: center;
-  font-size: 4rem;
-
+  font-size: 5rem;
+  animation: 2s infinite chevron;
   /* width: 7rem;
   height: 5rem; */
 }
 .landing-chevronWrapper > i {
   padding: 0 0.5rem;
-  background: var(--theme-ui-colors-text);
-  color: var(--theme-ui-colors-background);
+  /* background: var(--theme-ui-colors-text);
+  color: var(--theme-ui-colors-background); */
+}
+@keyframes chevron {
+  0%,
+  32% {
+    transform: translateY(0);
+  }
+  42%,
+  58% {
+    transform: translateY(1rem);
+  }
+  50% {
+    transform: translateY(0.7rem);
+  }
+  68%,
+  100% {
+    transform: translateY(0);
+  }
 }
 /* .landing-chevronWrapper img {
   object-fit: fill;
