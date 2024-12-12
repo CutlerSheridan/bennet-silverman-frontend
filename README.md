@@ -6,7 +6,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- make sure 'view reel' button is centered on mobile and desktop
+- play with 'view reel' style
 
 #### TODO LATER
 
@@ -34,6 +34,13 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - all .css files originate from me
 
 #### CHANGELOG
+
+_1.2.1_
+
+- get landing video autoplaying on mobile
+  - just had to switch 'playsInLine' to 'playsInline'
+- prevent horizontal overscroll on iOS Safari
+  - had to add: ":root, body { overflow-x: hidden; position: relative }"
 
 _1.2.0_
 

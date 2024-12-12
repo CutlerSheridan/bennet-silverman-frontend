@@ -9,7 +9,7 @@ import landingVideoWebm from '../videos/test-vid.webm';
 
 const Landing = () => {
   return (
-    <div className="landing">
+    <section className="landing">
       <div className="landing-logoCover"></div>
 
       <div className="landing-infoWrapper">
@@ -43,7 +43,7 @@ const Landing = () => {
       </div>
 
       <div className="landing-videoWrapper">
-        <video autoPlay muted loop playsInLine>
+        <video autoPlay playing muted loop playsInline>
           <source src={landingVideoWebm} type="video/webm" />
           <source src={landingVideoMp4} type="video/mp4" />
         </video>
@@ -65,7 +65,7 @@ const Landing = () => {
         <i class="fa-solid fa-chevron-down"></i>
         {/* <img src={chevron} alt="" /> */}
       </div>
-    </div>
+    </section>
   );
 };
 
