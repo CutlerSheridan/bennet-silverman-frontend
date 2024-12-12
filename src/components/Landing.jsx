@@ -4,6 +4,7 @@ import { jsx, Button } from 'theme-ui';
 import FlexCenter from '../components/FlexCenter';
 import Link from './Link';
 import landingVideoMp4 from '../videos/test-vid.mp4';
+import landingVideoWebm from '../videos/test-vid.webm';
 // import chevron from '../images/chevron-down.svg';
 
 const Landing = () => {
@@ -43,6 +44,7 @@ const Landing = () => {
 
       <div className="landing-videoWrapper">
         <video autoPlay muted loop playsInLine>
+          <source src={landingVideoWebm} type="video/webm" />
           <source src={landingVideoMp4} type="video/mp4" />
         </video>
         <div className="landing-videoLink">

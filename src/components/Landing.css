@@ -1,39 +1,59 @@
 .landing {
+  --video-width: 110vw;
+  --max-video-width: 975px;
+  --video-top-offset: 70px;
   /* display: flex;
   justify-content: center;
   align-items: center; */
   /* min-height: var(--video-width); */
-  height: 100vh;
+  min-height: 100vh;
+  border: 1px solid transparent; /* this prevents extra space at bottom of Landing */
   /* border: 1px solid orange; */
 }
 .landing > * {
   /* border: 1px solid black; */
 }
+@media only screen and (min-width: 1250px) {
+  .landing {
+    --video-width: 72vw;
+    --video-top-offset: -115px;
+  }
+}
 
+/* LOGO COVER START */
 .landing-logoCover {
   position: absolute;
   top: 0;
   left: 0;
-  width: 35%;
-  height: 8rem;
+  width: 70%;
+  height: 4rem;
   background: var(--theme-ui-colors-background);
   z-index: 100;
 }
+@media only screen and (min-width: 1250px) {
+  .landing-logoCover {
+    width: 35%;
+    height: 8rem;
+  }
+}
+/* LOGO COVER END */
 
+/* INFO TEXT START */
 .landing-infoWrapper {
-  margin-left: 10%;
-  margin-top: 28vh;
+  /* margin-left: 1.3rem; */
+  padding: 0 1.3rem;
+  margin-top: calc(var(--video-top-offset) + var(--video-width) - 40px);
   text-align: left;
 }
 .landing h1 {
   width: fit-content;
-  font-size: 4.8rem;
+  font-size: 2rem;
   text-transform: uppercase;
-  letter-spacing: 0.05rem;
   color: var(--theme-ui-colors-background);
   background: var(--theme-ui-colors-text);
 }
 .landing p {
+  /* padding: 0 1.3rem; */
   max-width: 53ch;
   text-align: justify;
   font-size: 1.2em;
@@ -42,13 +62,26 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+@media only screen and (min-width: 1250px) {
+  .landing-infoWrapper {
+    margin-left: 10%;
+    margin-top: 28vh;
+    padding: inherit;
+  }
+  .landing h1 {
+    font-size: 4.8rem;
+    letter-spacing: 0.05rem;
+  }
+  .landing p {
+  }
+}
+/* INFO TEXT END */
 
+/* VIDEO START */
 .landing-videoWrapper {
-  --video-width: 72vw;
-  --max-video-width: 975px;
   position: absolute;
-  top: -115px;
-  left: 43%;
+  top: var(--video-top-offset);
+  left: calc(0% - (var(--video-width) - 100vw) / 2);
   height: var(--video-width);
   width: var(--video-width);
   max-width: var(--max-video-width);
@@ -62,14 +95,26 @@
   border-radius: 1000rem;
   z-index: -1;
   box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
 }
 .landing-videoLink {
   position: relative;
   left: calc(50% - 4.5ch - 18px);
-  top: -10rem;
+  top: -90%;
   z-index: 1;
 }
+@media only screen and (min-width: 1250px) {
+  .landing-videoWrapper {
+    top: var(--video-top-offset);
+    left: 43%;
+  }
+  .landing-videoLink {
+    top: -10rem;
+  }
+}
+/* VIDEO END */
 
+/* CHEVRON START */
 .landing-chevronWrapper {
   position: absolute;
   bottom: 2rem;
@@ -111,3 +156,4 @@
   filter: invert(73%) sepia(75%) saturate(280%) hue-rotate(359deg)
     brightness(96%) contrast(90%);
 } */
+/* CHEVRON END */

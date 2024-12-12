@@ -6,7 +6,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- make landing page mobile-friendly
+- make sure 'view reel' button is centered on mobile and desktop
 
 #### TODO LATER
 
@@ -34,6 +34,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - all .css files originate from me
 
 #### CHANGELOG
+
+_1.2.0_
+
+- start making landing page mobile-friendly
+- add webm version of test-vid
 
 _1.1.6_
 
