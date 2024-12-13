@@ -6,7 +6,8 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- play with 'view reel' style
+- make website responsive between mobile and 1250px
+- consider what other changes would improve the site
 
 #### TODO LATER
 
@@ -34,6 +35,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - all .css files originate from me
 
 #### CHANGELOG
+
+_1.2.3_
+
+- change "view reel" button background to be translucent black using ::before pseudoelement
+- round corners on reel button
 
 _1.2.2_
 
