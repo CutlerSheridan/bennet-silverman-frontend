@@ -35,6 +35,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_1.2.2_
+
+- hide chevron on mobile
+
 _1.2.1_
 
 - get landing video autoplaying on mobile
