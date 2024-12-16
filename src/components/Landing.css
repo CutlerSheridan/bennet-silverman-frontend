@@ -27,7 +27,7 @@
   left: 0;
   width: 70%;
   height: 4rem;
-  background: var(--theme-ui-colors-background);
+  /* background: var(--theme-ui-colors-background); */
   z-index: 100;
 }
 @media only screen and (min-width: 1250px) {
@@ -41,11 +41,13 @@
 /* INFO TEXT START */
 .landing-infoWrapper {
   /* margin-left: 1.3rem; */
-  padding: 0 1.3rem;
+  padding: 0 1.3rem 2rem;
   margin-top: calc(var(--video-top-offset) + var(--video-width) - 40px);
+  width: fit-content;
   text-align: left;
 }
 .landing h1 {
+  /* margin-bottom: 3rem; */
   padding: 0 0.7rem;
   width: fit-content;
   font-size: 2rem;
@@ -54,26 +56,65 @@
   background: var(--theme-ui-colors-text);
 }
 .landing p {
-  /* padding: 0 1.3rem; */
+  margin-top: -0.9rem;
   max-width: 53ch;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: 'SerialB';
+  font-weight: 200;
+}
+/* .landing p {
+  --circle-text-width: 43.2ch;
+  margin: -2rem 0 0;
+  width: var(--circle-text-width);
+  height: var(--circle-text-width);
   text-align: justify;
   font-size: 1.2em;
+  font-family: 'SerialB';
+  font-weight: 200;
+  border-radius: 50%;
+  overflow: hidden;
 }
+[aria-hidden='true'] {
+  display: contents;
+}
+[aria-hidden='true']::before,
+[aria-hidden='true']::after {
+  content: '';
+  float: left;
+  width: 50%;
+  height: 100%;
+  --bite: radial-gradient(
+    farthest-side at var(--pos-x, 100%),
+    transparent 100%,
+    red  );
+  -webkit-shape-outside: var(--bite);
+  shape-outside: var(--bite);
+}
+[aria-hidden='true']::after {
+  --pos-x: 0;
+  float: right;
+} */
 .landing-emphasis {
   font-weight: bold;
   text-transform: uppercase;
 }
+/* .landing-textAndContactWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+} */
 @media only screen and (min-width: 1250px) {
   .landing-infoWrapper {
     margin-left: 10%;
-    margin-top: 28vh;
+    margin-top: 22vh;
     padding: inherit;
   }
   .landing h1 {
     font-size: 4.8rem;
     letter-spacing: 0.05rem;
-  }
-  .landing p {
   }
 }
 /* INFO TEXT END */

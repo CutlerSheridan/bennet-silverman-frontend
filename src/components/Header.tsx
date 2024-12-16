@@ -28,7 +28,7 @@ const Header = (props, ref) => {
   return (
     <header
       sx={{
-        position: 'fixed',
+        position: 'absolute',
         top: 0,
         left: 0,
         right: 0,
@@ -49,7 +49,7 @@ const Header = (props, ref) => {
         {/* LOGO */}
         <Link to="/">
           <Heading as="h1" sx={{ fontSize: [4, 5, 6] }}>
-            BENNET SILVERMAN
+            BS
           </Heading>
         </Link>
       </Box>

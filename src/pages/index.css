@@ -1,3 +1,22 @@
+@font-face {
+  font-family: 'SerialB';
+  src: url('../../public/fonts/SerialB-RegularBlur.ttf');
+  font-weight: 400;
+  font-display: block;
+}
+@font-face {
+  font-family: 'SerialB';
+  src: url('../../public/fonts/SerialB-Light.ttf');
+  font-weight: 300;
+  font-display: block;
+}
+@font-face {
+  font-family: 'SerialB';
+  src: url('../../public/fonts/SerialB-Thin.ttf');
+  font-weight: 200;
+  font-display: block;
+}
+
 :root {
   overflow-x: hidden;
 }
@@ -7,4 +26,21 @@ body {
 }
 .mainBody {
   border-top: 1px solid orange;
+}
+
+header h1 {
+  position: relative;
+  color: var(--theme-ui-colors-background);
+}
+header h1::before {
+  --logo-bg-width: 150%;
+  content: '';
+  position: absolute;
+  top: calc((var(--logo-bg-width) - 100%) / 2 * -1);
+  left: calc((var(--logo-bg-width) - 100%) / 2 * -1);
+  width: var(--logo-bg-width);
+  height: var(--logo-bg-width);
+  border-radius: 50%;
+  background: var(--theme-ui-colors-text);
+  z-index: -1;
 }

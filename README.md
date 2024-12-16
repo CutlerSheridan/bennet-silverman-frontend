@@ -6,8 +6,8 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
+- decrease max-width of open hamburger menu
 - make website responsive between mobile and 1250px
-- consider what other changes would improve the site
 
 #### TODO LATER
 
@@ -20,8 +20,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Style
 
-- change header from fixed position to absolute
-- decrease max-width of open hamburger menu
 - ? inverse colors of hamburger icon
 - remove header link highlight
 - ? add current page indication
@@ -34,7 +32,36 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - Not familiar with Gatsby or Sass so everything bootstrapped from there
 - all .css files originate from me
 
+##### TYLER NOTES
+
+- darker background
+- more circles on landing
+- try making intro bio circular
+- put logo in circle, maybe 1/4th circle in corner
+- put circle behind hamburger
+
+##### BENNET NOTES
+
+- name like headline 'bennet is a comedh filmmkarer'
+- make bio text less uniform/organized
+- play with video on other side
+- remove bio page, make bio button go to home
+
+- SEND BENNET SCREEN RECORDING
+
 #### CHANGELOG
+
+_1.2.4_
+
+- add CSS to make intro text a circle
+- revert intro text to paragraph
+- add SerialB fonts
+- style intro text with SerialB typeface
+- add padding-bottom to Landing so mobile has space under 'contact' button
+- make header static
+- change header logo to initials
+- add circle behind header logo
+- make header logo clickable
 
 _1.2.3_
 
