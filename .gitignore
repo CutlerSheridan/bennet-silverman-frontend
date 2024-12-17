@@ -39,4 +39,5 @@ src/gatsby-types.d.ts
 .env*
 .DS_Store
 .vscode
+SerialB-unused
 # .git

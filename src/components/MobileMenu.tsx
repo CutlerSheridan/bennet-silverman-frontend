@@ -81,12 +81,12 @@ export default () => {
       <motion.div
         sx={{
           position: 'fixed',
-          top: 0,
+          top: '-1rem',
           right: isOpen ? 0 : '-100%',
           bottom: 0,
           height: '100vh',
           width: ['100vw', '50vw'],
-          maxWidth: [null, 768],
+          maxWidth: [null, 400],
           zIndex,
           overflow: 'visible',
         }}
@@ -167,7 +167,7 @@ export default () => {
           color: isOpen ? 'background' : 'text',
         }}
       >
-        <Hamburger rounded size={30} toggled={isOpen} toggle={setOpen} />
+        <Hamburger rounded size={25} toggled={isOpen} toggle={setOpen} />
       </Box>
     </Box>
   );

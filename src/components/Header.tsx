@@ -7,6 +7,7 @@ import Link from './Link';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import MobileMenu from './MobileMenu';
 import { useWindowSize } from 'usehooks-ts';
+import './Header.css';
 
 const Header = (props, ref) => {
   const data = useStaticQuery(graphql`
@@ -29,8 +30,8 @@ const Header = (props, ref) => {
     <header
       sx={{
         position: 'absolute',
-        top: 0,
-        left: 0,
+        top: '1rem',
+        left: '1rem',
         right: 0,
         zIndex: 49,
         padding: ['20px', '20px 40px'],

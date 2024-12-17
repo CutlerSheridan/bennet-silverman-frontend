@@ -6,7 +6,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- decrease max-width of open hamburger menu
 - make website responsive between mobile and 1250px
 
 #### TODO LATER
@@ -50,6 +49,14 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - SEND BENNET SCREEN RECORDING
 
 #### CHANGELOG
+
+_1.2.5_
+
+- change size of header logo ::before
+- add circle behind hamburger
+- change hamburger icon size
+- move intro text down
+- decrease max-width of open hamburger menu
 
 _1.2.4_
 

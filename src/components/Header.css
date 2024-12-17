@@ -1,0 +1,40 @@
+header h1 {
+  position: relative;
+  color: var(--theme-ui-colors-background);
+}
+header h1::before {
+  --logo-bg-width: 300%;
+  content: '';
+  position: absolute;
+  top: calc((var(--logo-bg-width) - 100%) / 2 * -1);
+  left: calc((var(--logo-bg-width) - 100%) / 2 * -1);
+  width: var(--logo-bg-width);
+  height: var(--logo-bg-width);
+  border-radius: 50%;
+  background: var(--theme-ui-colors-text);
+  z-index: -1;
+}
+
+.hamburger-react {
+  position: relative;
+  color: var(--theme-ui-colors-background);
+  font-size: 0.5rem;
+}
+.hamburger-react::before {
+  --menu-bg-width: 110%;
+  content: '';
+  position: absolute;
+  top: calc((var(--menu-bg-width) - 100%) / 2 * -1);
+  left: calc((var(--menu-bg-width) - 100%) / 2 * -1);
+  width: var(--menu-bg-width);
+  height: var(--menu-bg-width);
+  border-radius: 50%;
+  background: var(--theme-ui-colors-text);
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1250px) {
+  header h1::before {
+    --logo-bg-width: 180%;
+  }
+}
