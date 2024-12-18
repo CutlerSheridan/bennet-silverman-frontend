@@ -1,4 +1,22 @@
 @font-face {
+  font-family: 'Xband-Rough';
+  src: url('../../public/fonts/xband-rough.ttf');
+  font-weight: 400;
+  font-display: block;
+}
+@font-face {
+  font-family: 'SerialB';
+  src: url('../../public/fonts/SerialB-Black.ttf');
+  font-weight: 600;
+  font-display: block;
+}
+@font-face {
+  font-family: 'SerialB';
+  src: url('../../public/fonts/SerialB-BoldBlur.ttf');
+  font-weight: 500;
+  font-display: block;
+}
+@font-face {
   font-family: 'SerialB';
   src: url('../../public/fonts/SerialB-RegularBlur.ttf');
   font-weight: 400;

@@ -2,6 +2,7 @@
   --video-width: 110vw;
   --max-video-width: 975px;
   --video-top-offset: 70px;
+  position: relative;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -47,7 +48,7 @@
   text-align: left;
 }
 .landing h1 {
-  /* margin-bottom: 3rem; */
+  margin: 0 auto 2rem;
   padding: 0 0.7rem;
   width: fit-content;
   font-size: 2rem;
@@ -56,20 +57,24 @@
   background: var(--theme-ui-colors-text);
 }
 .landing p {
-  margin-top: -0.9rem;
-  max-width: 53ch;
-  text-align: left;
-  font-size: 1.2em;
-  font-family: 'SerialB';
-  font-weight: 200;
+  position: relative;
+  /* margin-top: -2rem; */
+  margin: auto;
+  max-width: 63ch;
+  text-align: center;
+  font-size: 1.5em;
+  /* font-family: 'SerialB'; */
+  font-family: 'Xband-Rough';
+  font-weight: 400;
+  letter-spacing: -0.05rem;
 }
 /* .landing p {
-  --circle-text-width: 43.2ch;
-  margin: -2rem 0 0;
+  --circle-text-width: 45ch;
+  margin: -2rem auto 0;
   width: var(--circle-text-width);
   height: var(--circle-text-width);
   text-align: justify;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-family: 'SerialB';
   font-weight: 200;
   border-radius: 50%;
@@ -87,7 +92,8 @@
   --bite: radial-gradient(
     farthest-side at var(--pos-x, 100%),
     transparent 100%,
-    red  );
+    red
+  );
   -webkit-shape-outside: var(--bite);
   shape-outside: var(--bite);
 }
@@ -95,8 +101,13 @@
   --pos-x: 0;
   float: right;
 } */
+.landing p > a {
+  font-weight: bold;
+  text-decoration: underline;
+}
 .landing-emphasis {
   font-weight: bold;
+  font-family: 'SerialB';
   text-transform: uppercase;
 }
 /* .landing-textAndContactWrapper {
@@ -109,7 +120,7 @@
 @media only screen and (min-width: 1250px) {
   .landing-infoWrapper {
     margin-left: 10%;
-    margin-top: 25vh;
+    margin-top: 28vh;
     padding: inherit;
   }
   .landing h1 {
@@ -172,13 +183,12 @@
 /* CHEVRON START */
 .landing-chevronWrapper {
   display: none;
+  position: absolute;
   bottom: 2rem;
   width: 100%;
   text-align: center;
   font-size: 5rem;
   animation: 2s infinite chevron;
-  /* width: 7rem;
-  height: 5rem; */
 }
 .landing-chevronWrapper > i {
   padding: 0 0.5rem;

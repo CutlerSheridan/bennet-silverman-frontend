@@ -50,6 +50,12 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_1.2.6_
+
+- adjust font weight, size
+- refactor chevron placement code
+- change intro font
+
 _1.2.5_
 
 - change size of header logo ::before
