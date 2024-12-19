@@ -48,13 +48,31 @@
   text-align: left;
 }
 .landing h1 {
+  position: relative;
   margin: 0 auto 2rem;
   padding: 0 0.7rem;
   width: fit-content;
   font-size: 2rem;
   text-transform: uppercase;
   color: var(--theme-ui-colors-background);
-  background: var(--theme-ui-colors-text);
+  /* background: var(--theme-ui-colors-text); */
+  z-index: 1;
+}
+.landing h1::before {
+  --paint-size: 120%;
+  content: '';
+  position: absolute;
+  top: calc((var(--paint-size) - 100%) / 2 * -1);
+  left: calc((var(--paint-size) - 100%) / 2 * -1);
+  width: var(--paint-size);
+  height: var(--paint-size);
+  background-image: url(../images/paint-stroke.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(68%) saturate(298%)
+    hue-rotate(1deg) brightness(97%) contrast(89%);
+  z-index: -1;
 }
 .landing p {
   position: relative;

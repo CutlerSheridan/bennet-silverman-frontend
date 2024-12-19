@@ -6,7 +6,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- make website responsive between mobile and 1250px
+- try to pull splash video straight from Vimeo URL
 
 #### TODO LATER
 
@@ -14,15 +14,16 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Behavior
 
+- make website responsive between mobile and 1250px
 - stop hamburger links from loading twice
 - get rid of chevron svg + css if unused
 
 ##### Style
 
-- ? inverse colors of hamburger icon
+- add dark filter over reel
+- play with color palette
 - remove header link highlight
 - ? add current page indication
-- style home page Contact footer
 - remove border-top from index.css
 
 ##### Notes
@@ -49,6 +50,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - SEND BENNET SCREEN RECORDING
 
 #### CHANGELOG
+
+_1.2.7_ (branch: main)
+
+- add paint stroke behind landing heading
+- match paint color to yellow
 
 _1.2.6_
 
