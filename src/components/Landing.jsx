@@ -10,7 +10,7 @@ import Vimeo from '@u-wave/react-vimeo';
 
 const Landing = () => {
   return (
-    <section className="landing">
+    <section id="welcome" className="landing">
       <div className="landing-logoCover"></div>
 
       <div className="landing-infoWrapper">

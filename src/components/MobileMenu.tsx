@@ -108,10 +108,11 @@ export default () => {
           }}
         >
           <motion.ul variants={navStagger} sx={{ paddingLeft: 0 }}>
-            {['Work', 'Bio', 'Contact'].map((pageName) => {
+            {['Bio', 'Work', 'Contact'].map((pageName) => {
               let url = '/' + pageName.toLowerCase();
               if (pageName == 'Home') url = '/';
               if (pageName == 'Work') url = '/#work';
+              if (pageName == 'Bio') url = '/#welcome';
               return (
                 <MenuItem key={pageName}>
                   <Link

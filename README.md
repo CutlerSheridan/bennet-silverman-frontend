@@ -6,7 +6,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- try to pull splash video straight from Vimeo URL
+- expand contact section at bottom of home page
 
 #### TODO LATER
 
@@ -37,18 +37,17 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - more circles on landing
 - try making intro bio circular
 - put logo in circle, maybe 1/4th circle in corner
-- put circle behind hamburger
 
 ##### BENNET NOTES
 
-- name like headline 'bennet is a comedh filmmkarer'
-- make bio text less uniform/organized
 - play with video on other side
-- remove bio page, make bio button go to home
-
-- SEND BENNET SCREEN RECORDING
 
 #### CHANGELOG
+
+_1.3.1_
+
+- reroute Bio to landing page
+- reorder hamburger menu options
 
 _1.3.0.1_ (branch: main)
 

@@ -76,27 +76,26 @@
 }
 .landing p {
   position: relative;
-  /* margin-top: -2rem; */
   margin: auto;
   max-width: 63ch;
   text-align: center;
   font-size: 1.5em;
-  /* font-family: 'SerialB'; */
   font-family: 'Xband-Rough';
   font-weight: 400;
   letter-spacing: -0.05rem;
   z-index: 1;
 }
 /* .landing p {
-  --circle-text-width: 45ch;
-  margin: -2rem auto 0;
+  --circle-text-width: 53ch;
+  margin: -1rem auto 0;
   width: var(--circle-text-width);
   height: var(--circle-text-width);
   text-align: justify;
-  font-size: 1.4em;
-  font-family: 'SerialB';
+  font-size: 1.5em;
+  font-family: 'Xband-Rough';
   font-weight: 200;
   border-radius: 50%;
+  z-index: 1;
   overflow: hidden;
 }
 [aria-hidden='true'] {
