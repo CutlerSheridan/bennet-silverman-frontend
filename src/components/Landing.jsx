@@ -5,12 +5,13 @@ import FlexCenter from '../components/FlexCenter';
 import Link from './Link';
 import landingVideoMp4 from '../videos/test-vid.mp4';
 import landingVideoWebm from '../videos/test-vid.webm';
+import Vimeo from '@u-wave/react-vimeo';
 // import chevron from '../images/chevron-down.svg';
 
 const Landing = () => {
   return (
     <section className="landing">
-      {/* <div className="landing-logoCover"></div> */}
+      <div className="landing-logoCover"></div>
 
       <div className="landing-infoWrapper">
         <h1>Bennet Silverman</h1>
@@ -52,10 +53,23 @@ const Landing = () => {
       </div>
 
       <div className="landing-videoWrapper">
-        <video autoPlay playing muted loop playsInline>
+        {/* <video autoPlay playing muted loop playsInline>
           <source src={landingVideoWebm} type="video/webm" />
           <source src={landingVideoMp4} type="video/mp4" />
-        </video>
+        </video> */}
+        <Vimeo
+          video="https://vimeo.com/347348513"
+          className="landing-video"
+          autoplay
+          playing
+          muted
+          loop
+          playsInline
+          responsive
+          controls="false"
+          width="100%"
+          height="100%"
+        />
         <div className="landing-videoLink">
           <Link href="https://www.vimeo.com">
             <Button

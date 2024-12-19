@@ -20,7 +20,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Style
 
-- add dark filter over reel
 - play with color palette
 - remove header link highlight
 - ? add current page indication
@@ -50,6 +49,17 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - SEND BENNET SCREEN RECORDING
 
 #### CHANGELOG
+
+_1.3.0_ (branch: vimeo-splash)
+
+- replace landing video with Vimeo player
+- get vimeo vid correct size
+- center vimeo vid in wrapper
+- shape vimeo vid into circle
+- add dark filter over reel
+- hide 'unmute' button on vid
+- cover logo on landing page
+- adjust infoWrapper placement
 
 _1.2.7_ (branch: main)
 
