@@ -50,6 +50,12 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_1.2.7_ (branch: landing-split)
+
+- create dynamic split color palette for landing page
+- make heading huge
+- add Xband-Rough font for intro text
+
 _1.2.6_
 
 - adjust font weight, size

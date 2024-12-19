@@ -1,6 +1,6 @@
 header h1 {
   position: relative;
-  color: var(--theme-ui-colors-background);
+  color: var(--theme-ui-colors-text);
 }
 header h1::before {
   --logo-bg-width: 300%;
@@ -11,7 +11,7 @@ header h1::before {
   width: var(--logo-bg-width);
   height: var(--logo-bg-width);
   border-radius: 50%;
-  background: var(--theme-ui-colors-text);
+  background: var(--theme-ui-colors-background);
   z-index: -1;
 }
 

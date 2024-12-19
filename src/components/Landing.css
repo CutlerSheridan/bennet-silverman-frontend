@@ -3,16 +3,21 @@
   --max-video-width: 975px;
   --video-top-offset: 70px;
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* min-height: var(--video-width); */
   min-height: 100vh;
   border: 1px solid transparent; /* this prevents extra space at bottom of Landing */
-  /* border: 1px solid orange; */
+  z-index: 0;
 }
-.landing > * {
-  /* border: 1px solid black; */
+.landing2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 24.5vw;
+  overflow: hidden;
+  background: var(--theme-ui-colors-text);
+  color: var(--theme-ui-colors-background);
+}
+.landing2 .landing-infoWrapper p {
+  width: 60ch;
 }
 @media only screen and (min-width: 1250px) {
   .landing {
@@ -22,13 +27,12 @@
 }
 
 /* LOGO COVER START */
-.landing-logoCover {
+/* .landing-logoCover {
   position: absolute;
   top: 0;
   left: 0;
   width: 70%;
   height: 4rem;
-  /* background: var(--theme-ui-colors-background); */
   z-index: 100;
 }
 @media only screen and (min-width: 1250px) {
@@ -36,7 +40,7 @@
     width: 35%;
     height: 8rem;
   }
-}
+} */
 /* LOGO COVER END */
 
 /* INFO TEXT START */
@@ -48,26 +52,64 @@
   text-align: left;
 }
 .landing h1 {
-  margin: 0 auto 2rem;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: -5rem;
   padding: 0 0.7rem;
   width: fit-content;
   font-size: 2rem;
   text-transform: uppercase;
-  color: var(--theme-ui-colors-background);
-  background: var(--theme-ui-colors-text);
+  /* color: var(--theme-ui-colors-background);
+  background: var(--theme-ui-colors-text); */
+  z-index: 1;
 }
+.landing h1:last-of-type {
+  margin-bottom: -1rem;
+}
+/* .landing h1::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10ch;
+  padding: inherit;
+  color: var(--theme-ui-colors-background);
+}
+*/
 .landing p {
   position: relative;
   /* margin-top: -2rem; */
   margin: auto;
-  max-width: 63ch;
+  max-width: 60ch;
   text-align: center;
   font-size: 1.5em;
   /* font-family: 'SerialB'; */
   font-family: 'Xband-Rough';
   font-weight: 400;
   letter-spacing: -0.05rem;
+  /* background: var(--theme-ui-colors-background); */
+  /* color: var(--theme-ui-colors-text); */
+  /* background: var(--theme-ui-colors-text); */
+  z-index: 1;
 }
+/* .landing p::before {
+  content: 'is a comedy filmmaker based in Los Angeles and a Seattle boy at heart. He parlayed his award-winning viral shorts into directing for JIMMY KIMMEL LIVE!, NICKELODEON, and serving as an EP + director for 10ish seasons of very funny episodic series on streaming platforms that don’t exist anymore (may they rest in peace). He also brings his EP skills to commercials, writing + directing things with people and brands like SONY PICTURES, DWAYNE JOHNSON, SHAKIRA, TARGET, CRAIG ROBINSON, MAJOR LEAGUE BASEBALL, PORTAL A, DRIVETIME.COM, ANTHONY EDWARDS and GOOGLE PLAY to name a few too many. Oh yeah, and he’s a WGA-nominated writer. You can contact him here. Nice.';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: red;
+} */
+
+/* .landing p::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 35ch;
+  height: 100%;
+  background: var(--theme-ui-colors-background);
+  z-index: -1;
+} */
+
 /* .landing p {
   --circle-text-width: 45ch;
   margin: -2rem auto 0;
@@ -119,12 +161,12 @@
 } */
 @media only screen and (min-width: 1250px) {
   .landing-infoWrapper {
-    margin-left: 10%;
-    margin-top: 28vh;
+    margin-left: 10vw;
+    margin-top: 10vh;
     padding: inherit;
   }
   .landing h1 {
-    font-size: 4.8rem;
+    font-size: 9rem;
     letter-spacing: 0.05rem;
   }
 }
@@ -139,6 +181,8 @@
   width: var(--video-width);
   max-width: var(--max-video-width);
   max-height: var(--max-video-width);
+  border-radius: 50%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
 }
 .landing-videoWrapper video {
   position: relative; /* this keeps Bennet's name on top of video */
@@ -146,10 +190,20 @@
   height: 100%;
   object-fit: cover;
   border-radius: 1000rem;
-  z-index: -1;
   box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.3);
+  z-index: -1;
   pointer-events: none;
 }
+/* .landing-videoWrapper video::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--video-width);
+  height: var(--video-width);
+  background: red;
+  z-index: 1;
+} */
 .landing-videoLink {
   position: relative;
   left: calc(50% - 4.5ch - 18px); /* 18px = left padding + border */
@@ -185,7 +239,7 @@
   display: none;
   position: absolute;
   bottom: 2rem;
-  width: 100%;
+  width: 100vw;
   text-align: center;
   font-size: 5rem;
   animation: 2s infinite chevron;
