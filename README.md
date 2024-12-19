@@ -50,6 +50,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_1.3.0.1_ (branch: main)
+
+- merge vimeo-splash branch
+
 _1.3.0_ (branch: vimeo-splash)
 
 - replace landing video with Vimeo player
