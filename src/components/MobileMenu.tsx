@@ -168,7 +168,7 @@ export default () => {
           color: isOpen ? 'background' : 'text',
         }}
       >
-        <Hamburger rounded size={25} toggled={isOpen} toggle={setOpen} />
+        <Hamburger rounded size={29} toggled={isOpen} toggle={setOpen} />
       </Box>
     </Box>
   );

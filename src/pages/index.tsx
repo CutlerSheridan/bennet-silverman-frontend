@@ -7,6 +7,7 @@ import { MainBanner } from '../components/MainBanner';
 import FlexCenter from '../components/FlexCenter';
 import Link from '../components/Link';
 import Landing from '../components/Landing.jsx';
+import HomeContactSection from '../components/HomeContactSection.tsx';
 import './index.css';
 
 import BannerLoadedContext from '../context/BannerLoadedContext';
@@ -38,18 +39,7 @@ const IndexPage = ({ location, path }) => {
         </Box>
       </BannerLoadedContext.Provider>
 
-      <FlexCenter mt={[3, 4]} p={[1, 1, 0]}>
-        <Link to="/contact">
-          <Button
-            sx={{
-              fontSize: [3, 4],
-              variant: 'buttons.outlined',
-            }}
-          >
-            Contact
-          </Button>
-        </Link>
-      </FlexCenter>
+      <HomeContactSection />
     </div>
   );
 };

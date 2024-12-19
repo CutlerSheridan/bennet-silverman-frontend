@@ -142,7 +142,7 @@
     padding: inherit;
   }
   .landing h1 {
-    font-size: 4.8rem;
+    font-size: 5.2rem;
     letter-spacing: 0.05rem;
   }
 }
@@ -157,7 +157,7 @@
   width: var(--video-width);
   max-width: var(--max-video-width);
   max-height: var(--max-video-width);
-  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 20px 20px rgb(0, 0, 0, 0.12);
   overflow: hidden;
   border-radius: 50%;
 }
@@ -221,11 +221,6 @@
   text-align: center;
   font-size: 5rem;
   animation: 2s infinite chevron;
-}
-.landing-chevronWrapper > i {
-  padding: 0 0.5rem;
-  /* background: var(--theme-ui-colors-text);
-  color: var(--theme-ui-colors-background); */
 }
 @keyframes chevron {
   0%,

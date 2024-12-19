@@ -6,7 +6,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- expand contact section at bottom of home page
+- make website responsive between mobile and 1250px
 
 #### TODO LATER
 
@@ -14,7 +14,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Behavior
 
-- make website responsive between mobile and 1250px
 - stop hamburger links from loading twice
 - get rid of chevron svg + css if unused
 
@@ -44,10 +43,17 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_1.3.2_
+
+- add HomeContactSection
+- make landing heading bigger
+- make hamburger lines bigger
+
 _1.3.1_
 
 - reroute Bio to landing page
 - reorder hamburger menu options
+- improve landing video drop shadow
 
 _1.3.0.1_ (branch: main)
 
