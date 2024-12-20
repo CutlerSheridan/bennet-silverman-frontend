@@ -49,9 +49,7 @@ const Header = (props, ref) => {
       <Box sx={{}}>
         {/* LOGO */}
         <Link to="/">
-          <Heading as="h1" sx={{ fontSize: [4, 5, 6] }}>
-            BS
-          </Heading>
+          <Heading as="h1">BS</Heading>
         </Link>
       </Box>
       <Box

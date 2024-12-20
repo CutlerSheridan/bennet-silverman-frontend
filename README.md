@@ -6,7 +6,9 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- make website responsive between mobile and 1250px
+- try adding gradient to background or darkened edges
+- play with heading font
+- play with color palette
 
 #### TODO LATER
 
@@ -19,7 +21,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Style
 
-- play with color palette
 - remove header link highlight
 - ? add current page indication
 - remove border-top from index.css
@@ -42,6 +43,12 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - play with video on other side
 
 #### CHANGELOG
+
+_1.4.0_
+
+- add paint stroke to header logo
+- change logo to BS
+- make website responsive between mobile and 1250px
 
 _1.3.2_
 

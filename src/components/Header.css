@@ -1,8 +1,12 @@
 header h1 {
   position: relative;
+  /* top: -1rem; */
+  /* top: 1rem;
+  left: 1rem; */
+  font-size: 2.5rem;
   color: var(--theme-ui-colors-background);
 }
-header h1::before {
+/* header h1::before {
   --logo-bg-width: 300%;
   content: '';
   position: absolute;
@@ -10,8 +14,24 @@ header h1::before {
   left: calc((var(--logo-bg-width) - 100%) / 2 * -1);
   width: var(--logo-bg-width);
   height: var(--logo-bg-width);
-  border-radius: 50%;
-  background: var(--theme-ui-colors-text);
+
+  z-index: -1;
+} */
+header h1::before {
+  --paint-width: 150%;
+  --paint-height: 150%;
+  content: '';
+  position: absolute;
+  top: calc((var(--paint-height) - 100%) / 2 * -1);
+  left: calc((var(--paint-width) - 100%) / 2 * -1);
+  width: var(--paint-width);
+  height: var(--paint-height);
+  background-image: url(../images/paint-stroke.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(68%) saturate(298%)
+    hue-rotate(1deg) brightness(97%) contrast(89%);
   z-index: -1;
 }
 
@@ -33,8 +53,8 @@ header h1::before {
   z-index: -1;
 }
 
-@media only screen and (min-width: 1250px) {
+/* @media only screen and (min-width: 1250px) {
   header h1::before {
     --logo-bg-width: 180%;
   }
-}
+} */
