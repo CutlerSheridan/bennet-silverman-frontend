@@ -36,6 +36,7 @@
 }
 
 :root {
+  box-shadow: inset 0 0 20px 20px rgb(0, 0, 0, 0.15);
   overflow-x: hidden;
 }
 body {
@@ -44,4 +45,9 @@ body {
 }
 .mainBody {
   border-top: 1px solid orange;
+}
+@media only screen and (min-width: 600px) {
+  :root {
+    box-shadow: inset 0 0 30px 30px rgb(0, 0, 0, 0.15);
+  }
 }

@@ -6,7 +6,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- try adding gradient to background or darkened edges
 - play with heading font
 - play with color palette
 
@@ -21,7 +20,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Style
 
-- remove header link highlight
+- do more to Contact button at bottom of home page
 - ? add current page indication
 - remove border-top from index.css
 
@@ -43,6 +42,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - play with video on other side
 
 #### CHANGELOG
+
+_1.4.1_
+
+- add darkened inset drop shadow to background
+- adjust iOS Safari top bar color to match darker green via SEO component in the <meta name='theme-color' /> element
 
 _1.4.0_
 
