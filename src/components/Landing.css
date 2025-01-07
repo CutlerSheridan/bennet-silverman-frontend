@@ -11,9 +11,6 @@
   border: 1px solid transparent; /* this prevents extra space at bottom of Landing */
   /* border: 1px solid orange; */
 }
-.landing > * {
-  /* border: 1px solid black; */
-}
 @media only screen and (min-width: 800px) {
   .landing {
     --video-width: 72vw;
@@ -74,12 +71,14 @@
   color: var(--theme-ui-colors-background);
   /* background: var(--theme-ui-colors-text); */
   z-index: 1;
+  /* font-family: 'League-Gothic'; */
+  font-family: 'Staatliches';
 }
 .landing h1::before {
   --paint-size: 120%;
   content: '';
   position: absolute;
-  top: calc((var(--paint-size) - 100%) / 2 * -1);
+  top: calc((var(--paint-size) - 100%) / 2 * -1 - 0.3rem);
   left: calc((var(--paint-size) - 100%) / 2 * -1);
   width: var(--paint-size);
   height: var(--paint-size);
@@ -155,8 +154,9 @@
     padding: inherit;
   }
   .landing h1 {
+    /* font-size: 5.8rem; */
     font-size: 5.2rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.3rem;
   }
   .landing p {
     max-width: 63ch;
