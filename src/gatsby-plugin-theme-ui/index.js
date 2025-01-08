@@ -20,7 +20,10 @@ const newTheme = {
     // background: '#141414', // charcoal
     // primary: "#FFFDD3", //banana
     // text: "#F5EAB6",// cream
-    background: '#177246', // green
+    // background: '#177246', // green
+    // background: '#135d39',
+    background: '#124f24',
+    // background: '#0f3e1d',
     primary: '#E9C46B', //yellow
     text: '#E9C46B', //yellow
     highlight: '#E9C46B', //yellow
@@ -76,9 +79,9 @@ const newTheme = {
     // body: 'Sora, monospace',
     // body: 'Roboto, monospace',
     // body: 'Helvetica Neue Bold, Roboto, monospace',
-    body: 'Oswald, Roboto, monospace',
+    body: 'League-Gothic, Oswald, Roboto, monospace',
     // heading: 'Rubik, monospace',
-    heading: 'Oswald, Roboto, cursive',
+    heading: 'League-Gothic, Oswald, Roboto, cursive',
     // monospace: 'Menlo, monospace',
   },
   text: {
@@ -127,6 +130,7 @@ const newTheme = {
       borderRadius: 0,
       transition: 'background-color ease .3s',
       fontFamily: 'body',
+      letterSpacings: '.03rem',
       color: 'text',
       '&:hover': {
         bg: transparentize('text', 0.5),
@@ -141,6 +145,7 @@ const newTheme = {
       borderRadius: 0,
       transition: 'background-color ease .3s',
       fontFamily: 'body',
+      letterSpacings: '.03rem',
       // backgroundColor: 'text',
       // color: 'background',
       backgroundColor: 'background',
@@ -158,6 +163,7 @@ const newTheme = {
       borderRadius: '5rem',
       transition: 'background-color ease .3s',
       fontFamily: 'body',
+      letterSpacing: '.05rem',
       // backgroundColor: transparentize('background', 0.3),
       // backgroundColor: 'background',
       // backgroundColor: 'rgb(35,35,35)',
@@ -206,6 +212,7 @@ const newTheme = {
           opacity: 0.8,
         },
         transition: 'opacity .5s ease',
+        letterSpacing: '.1rem',
       },
     },
   },

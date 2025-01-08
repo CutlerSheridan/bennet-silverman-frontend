@@ -71,8 +71,8 @@
   color: var(--theme-ui-colors-background);
   /* background: var(--theme-ui-colors-text); */
   z-index: 1;
-  /* font-family: 'League-Gothic'; */
-  font-family: 'Staatliches';
+  font-family: 'League-Gothic';
+  /* font-family: 'Staatliches'; */
 }
 .landing h1::before {
   --paint-size: 120%;
@@ -96,18 +96,23 @@
   max-width: 70ch;
   text-align: center;
   font-size: 1.2em;
-  font-family: 'Xband-Rough';
+  /* font-family: 'Xband-Rough'; */
+  font-family: 'League-Gothic';
+  /* font-family: 'Staatliches'; */
   font-weight: 400;
-  letter-spacing: -0.05rem;
+  /* letter-spacing: -0.05rem; */
   z-index: 1;
 }
 .landing p > a {
   font-weight: bold;
   text-decoration: underline;
+  letter-spacing: inherit;
 }
 .landing-emphasis {
   font-weight: bold;
   font-family: 'SerialB';
+  letter-spacing: -0.04rem;
+  /* font-family: 'Xband-Rough'; */
   text-transform: uppercase;
 }
 @media only screen and (min-width: 500px) {
@@ -154,12 +159,14 @@
     padding: inherit;
   }
   .landing h1 {
-    /* font-size: 5.8rem; */
-    font-size: 5.2rem;
+    font-size: 5.3rem;
+    /* font-size: 5.2rem; */
     letter-spacing: 0.3rem;
   }
   .landing p {
-    max-width: 63ch;
+    max-width: 81ch;
+    letter-spacing: 0.02rem;
+    /* max-width: 63ch; */
     font-size: 1.5em;
   }
 }

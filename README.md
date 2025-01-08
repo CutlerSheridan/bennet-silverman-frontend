@@ -6,7 +6,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- use heading font for other display fonts
 - play with color palette
 
 #### TODO LATER
@@ -43,6 +42,15 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - play with video on other side
 
 #### CHANGELOG
+
+_1.4.3_
+
+- change intro font
+- make all fonts match
+- add letter spacing to buttons
+- make green darker in color scheme
+- make Works background transparent so inset drop shadow displays
+  - add !important so Safari never gets confused
 
 _1.4.2_
 

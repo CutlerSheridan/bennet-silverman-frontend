@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import './Landing.css';
 import { jsx, Button } from 'theme-ui';
-import FlexCenter from '../components/FlexCenter';
+// import FlexCenter from '../components/FlexCenter';
 import Link from './Link';
-import landingVideoMp4 from '../videos/test-vid.mp4';
-import landingVideoWebm from '../videos/test-vid.webm';
+// import landingVideoMp4 from '../videos/test-vid.mp4';
+// import landingVideoWebm from '../videos/test-vid.webm';
 import Vimeo from '@u-wave/react-vimeo';
 // import chevron from '../images/chevron-down.svg';
 
@@ -85,7 +85,7 @@ const Landing = () => {
       </div>
 
       <div className="landing-chevronWrapper">
-        <i class="fa-solid fa-chevron-down"></i>
+        <i className="fa-solid fa-chevron-down"></i>
         {/* <img src={chevron} alt="" /> */}
       </div>
     </section>
