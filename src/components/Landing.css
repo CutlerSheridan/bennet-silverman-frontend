@@ -63,10 +63,10 @@
 }
 .landing h1 {
   position: relative;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.5rem;
   padding: 0 0.7rem;
   width: fit-content;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   color: var(--theme-ui-colors-background);
   /* background: var(--theme-ui-colors-text); */
@@ -93,14 +93,11 @@
 .landing p {
   position: relative;
   margin: auto;
-  max-width: 70ch;
+  max-width: 50ch;
   text-align: center;
-  font-size: 1.2em;
-  /* font-family: 'Xband-Rough'; */
+  font-size: 1.3em;
   font-family: 'League-Gothic';
-  /* font-family: 'Staatliches'; */
   font-weight: 400;
-  /* letter-spacing: -0.05rem; */
   z-index: 1;
 }
 .landing p > a {
@@ -112,12 +109,14 @@
   font-weight: bold;
   font-family: 'SerialB';
   letter-spacing: -0.04rem;
-  /* font-family: 'Xband-Rough'; */
   text-transform: uppercase;
 }
 @media only screen and (min-width: 500px) {
   .landing h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+  }
+  .landing p {
+    max-width: 80ch;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -129,13 +128,16 @@
     font-size: 3.5rem;
   }
   .landing p {
-    max-width: 55ch;
+    max-width: 73ch;
     font-size: 1.2em;
   }
 }
 @media only screen and (min-width: 850px) {
+  .landing h1 {
+    font-size: 3.75rem;
+  }
   .landing p {
-    font-size: 1.27em;
+    font-size: 1.3em;
   }
 }
 @media only screen and (min-width: 1000px) {
@@ -145,10 +147,9 @@
     padding: inherit;
   }
   .landing h1 {
-    font-size: 4rem;
+    font-size: 4.35rem;
   }
   .landing p {
-    max-width: 55ch;
     font-size: 1.35em;
   }
 }

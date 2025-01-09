@@ -6,7 +6,8 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- play with color palette
+- improve header logo
+- adjust font sizes on Contact page
 
 #### TODO LATER
 
@@ -20,9 +21,8 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Style
 
-- do more to Contact button at bottom of home page
+- clean up comments
 - ? add current page indication
-- remove border-top from index.css
 
 ##### Notes
 
@@ -30,18 +30,13 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - Not familiar with Gatsby or Sass so everything bootstrapped from there
 - all .css files originate from me
 
-##### TYLER NOTES
-
-- darker background
-- more circles on landing
-- try making intro bio circular
-- put logo in circle, maybe 1/4th circle in corner
-
-##### BENNET NOTES
-
-- play with video on other side
-
 #### CHANGELOG
+
+_1.4.4_
+
+- adjust responsive font sizes
+- add text to Contact section on home page
+- adjust contact button in Contact section
 
 _1.4.3_
 

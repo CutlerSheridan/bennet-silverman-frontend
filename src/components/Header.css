@@ -5,6 +5,7 @@ header h1 {
   left: 1rem; */
   font-size: 2.5rem;
   color: var(--theme-ui-colors-background);
+  font-family: 'League-Gothic';
 }
 /* header h1::before {
   --logo-bg-width: 300%;
@@ -18,7 +19,7 @@ header h1 {
   z-index: -1;
 } */
 header h1::before {
-  --paint-width: 150%;
+  --paint-width: 180%;
   --paint-height: 150%;
   content: '';
   position: absolute;

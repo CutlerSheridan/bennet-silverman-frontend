@@ -59,6 +59,10 @@ body {
 @media only screen and (min-width: 600px) {
   :root {
     box-shadow: inset 0 0 30px 30px rgb(0, 0, 0, 0.15);
+    /* background: linear-gradient(
+      var(--theme-ui-colors-background),
+      #0f381b
+    ); 0f441f */
   }
 }
 

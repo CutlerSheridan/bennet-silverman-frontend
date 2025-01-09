@@ -20,10 +20,7 @@ const newTheme = {
     // background: '#141414', // charcoal
     // primary: "#FFFDD3", //banana
     // text: "#F5EAB6",// cream
-    // background: '#177246', // green
-    // background: '#135d39',
-    background: '#124f24',
-    // background: '#0f3e1d',
+    background: '#124f24', // green
     primary: '#E9C46B', //yellow
     text: '#E9C46B', //yellow
     highlight: '#E9C46B', //yellow
@@ -130,7 +127,7 @@ const newTheme = {
       borderRadius: 0,
       transition: 'background-color ease .3s',
       fontFamily: 'body',
-      letterSpacings: '.03rem',
+      letterSpacing: '.03rem',
       color: 'text',
       '&:hover': {
         bg: transparentize('text', 0.5),
@@ -145,7 +142,7 @@ const newTheme = {
       borderRadius: 0,
       transition: 'background-color ease .3s',
       fontFamily: 'body',
-      letterSpacings: '.03rem',
+      letterSpacing: '.03rem',
       // backgroundColor: 'text',
       // color: 'background',
       backgroundColor: 'background',
