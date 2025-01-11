@@ -67,11 +67,135 @@ body {
 }
 
 /* WORKS START */
+/* THIS IS A MESS - I had to use crazy selectors to navigate the gatsby-generated class names */
 .mainBody {
-  /* border-top: 1px solid orange; */
   background-color: transparent !important;
 }
-/* .mainBody a {
-  font-size: 3rem;
-} */
+
+.mainBody
+  > div:first-of-type
+  > div:first-of-type
+  > div:first-of-type
+  > div:first-of-type {
+  position: relative;
+}
+.mainBody
+  > div:first-of-type
+  > div:first-of-type
+  > div:first-of-type
+  > div:first-of-type
+  > *:nth-child(4) {
+  display: none;
+}
+.mainBody
+  > div:first-of-type
+  > div:first-of-type
+  > div:first-of-type
+  > div:first-of-type::before,
+.mainBody
+  > div:first-of-type
+  > div:first-of-type
+  > div:first-of-type
+  > div:first-of-type::after {
+  content: '——';
+  letter-spacing: -0.2rem;
+  font-size: 1.5rem;
+}
+@media only screen and (min-width: 640px) {
+  .mainBody
+    > div:first-of-type
+    > div:first-of-type
+    > div:first-of-type
+    > div:first-of-type::before,
+  .mainBody
+    > div:first-of-type
+    > div:first-of-type
+    > div:first-of-type
+    > div:first-of-type::after {
+    content: '——';
+    letter-spacing: -0.2rem;
+    font-size: 2.1rem;
+  }
+}
 /* WORKS END */
+
+/* CONTACT PAGE START */
+/* Below selects all h2 elements */
+div[class*='ContactPage'] h2,
+h2[class*='ContactPage'] {
+  position: relative;
+  margin: 8px auto;
+  width: fit-content;
+  letter-spacing: 0.1rem;
+}
+h2[class*='ContactPage'] {
+  color: var(--theme-ui-colors-background);
+}
+@media only screen and (min-width: 640px) {
+  /* Below selects agency names */
+  main > div > div[class*='ContactPage'] h2 {
+    margin: 8px 0;
+    white-space: nowrap;
+  }
+}
+/* Below selector only targets 'CONTACT' heading */
+main > div > h2[class*='ContactPage'] {
+  /* margin: auto; */
+  font-size: 3rem;
+}
+main > div > h2[class*='ContactPage']::before {
+  --paint-width: calc(100% + 4rem);
+  --paint-height: 150%;
+  content: '';
+  position: absolute;
+  top: calc((var(--paint-height) - 100%) / 2 * -1);
+  left: calc((var(--paint-width) - 100%) / 2 * -1);
+  width: var(--paint-width);
+  height: var(--paint-height);
+  background-image: url(../images/paint-stroke.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(68%) saturate(298%)
+    hue-rotate(1deg) brightness(97%) contrast(89%);
+  z-index: -1;
+}
+
+/* Below selector only targets Bennet's email under CONTACT */
+/* main > div:first-of-type > div:first-of-type h2[class*='ContactPage'] {
+} */
+main > div > div[class*='ContactPage'] {
+  padding-top: 16px;
+}
+div[class*='ContactPage'] p {
+  text-transform: uppercase;
+  font-family: 'SerialB';
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+main > div > div[class*='ContactPage'] {
+  /* max-width: 80%; */
+}
+@media only screen and (min-width: 640px) {
+  /* Below targets contact grid */
+  main > div > div[class*='ContactPage'] {
+    margin: auto;
+    max-width: 80%;
+  }
+  main > div > div[class*='ContactPage'] > div:not(:first-of-type) {
+    margin-top: 44px;
+  }
+  /* Below targets agency logo grid cells */
+  main > div > div[class*='ContactPage'] div[class*='ContactPage'] {
+    padding-right: 1.6rem;
+  }
+}
+
+div[class*='ContactPage'] {
+  align-self: center;
+}
+div[class*='ContactPage']
+  .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+  max-width: 155px;
+}
+/* CONTACT PAGE END */

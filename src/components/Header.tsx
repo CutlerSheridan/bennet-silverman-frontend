@@ -46,7 +46,11 @@ const Header = (props, ref) => {
         },
       }}
     >
-      <Box sx={{}}>
+      <Box
+        sx={{
+          fontSize: [3, 3],
+        }}
+      >
         {/* LOGO */}
         <Link to="/">
           <Heading as="h1">BS</Heading>

@@ -3,10 +3,6 @@
   --max-video-width: 625px;
   --video-top-offset: 70px;
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  /* min-height: var(--video-width); */
   min-height: 100vh;
   border: 1px solid transparent; /* this prevents extra space at bottom of Landing */
   /* border: 1px solid orange; */
@@ -31,27 +27,8 @@
   }
 }
 
-/* LOGO COVER START */
-/* .landing-logoCover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30%;
-  height: 4rem;
-  background: var(--theme-ui-colors-background);
-  z-index: 100;
-}
-@media only screen and (min-width: 1250px) {
-  .landing-logoCover {
-    width: 35%;
-    height: 8rem;
-  }
-} */
-/* LOGO COVER END */
-
 /* INFO TEXT START */
 .landing-infoWrapper {
-  /* margin-left: 1.3rem; */
   padding: 0 1.3rem 2rem;
   margin: auto;
   margin-top: calc(
@@ -69,16 +46,14 @@
   font-size: 2.5rem;
   text-transform: uppercase;
   color: var(--theme-ui-colors-background);
-  /* background: var(--theme-ui-colors-text); */
   z-index: 1;
   font-family: 'League-Gothic';
-  /* font-family: 'Staatliches'; */
 }
 .landing h1::before {
   --paint-size: 120%;
   content: '';
   position: absolute;
-  top: calc((var(--paint-size) - 100%) / 2 * -1 - 0.3rem);
+  top: calc((var(--paint-size) - 100%) / 2 * -1 - 0.1rem);
   left: calc((var(--paint-size) - 100%) / 2 * -1);
   width: var(--paint-size);
   height: var(--paint-size);
@@ -110,6 +85,8 @@
   font-family: 'SerialB';
   letter-spacing: -0.04rem;
   text-transform: uppercase;
+  /* font-size: 1.3em; */
+  font-size: 20px;
 }
 @media only screen and (min-width: 500px) {
   .landing h1 {
@@ -130,6 +107,9 @@
   .landing p {
     max-width: 73ch;
     font-size: 1.2em;
+  }
+  .landing-emphasis {
+    font-size: 24px;
   }
 }
 @media only screen and (min-width: 850px) {
@@ -161,13 +141,11 @@
   }
   .landing h1 {
     font-size: 5.3rem;
-    /* font-size: 5.2rem; */
     letter-spacing: 0.3rem;
   }
   .landing p {
     max-width: 81ch;
     letter-spacing: 0.02rem;
-    /* max-width: 63ch; */
     font-size: 1.5em;
   }
 }

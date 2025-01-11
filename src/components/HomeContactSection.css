@@ -9,5 +9,11 @@
   text-align: center;
 }
 .homeContact-wrapper > p:first-of-type {
+  margin-left: -1.6rem;
+}
+.homeContact-wrapper > p:not(:first-of-type) {
+  margin-left: 1.6rem;
+}
+.homeContact-wrapper > p:first-of-type {
   margin-bottom: -0.7rem;
 }

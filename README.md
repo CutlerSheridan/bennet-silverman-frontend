@@ -6,8 +6,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- improve header logo
-- adjust font sizes on Contact page
+- fix Alpen logo getting cut off vertically, what the fuck
 
 #### TODO LATER
 
@@ -21,6 +20,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 ##### Style
 
+- make look better on portrait iPad
 - clean up comments
 - ? add current page indication
 
@@ -31,6 +31,19 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - all .css files originate from me
 
 #### CHANGELOG
+
+_1.5.0_
+
+- add letter-spacing on contact page
+- make agency logos smaller
+- add brush stroke to Contact page's heading
+- change fonts, spacing, sizes of text on Contact page
+- make sure contact selectors are specific enough they don't change work grids video thumbnail size
+- improve header logo
+- adjust landing page heading
+- make mobile emphasis on landing page smaller
+- remove "reel" tab from video grid
+- make contact text at bottom of home page misaligned
 
 _1.4.4_
 
