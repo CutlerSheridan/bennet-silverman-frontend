@@ -53,7 +53,7 @@ const Header = (props, ref) => {
       >
         {/* LOGO */}
         <Link to="/">
-          <Heading as="h1">BS</Heading>
+          <Heading as="h1">B</Heading>
         </Link>
       </Box>
       <Box

@@ -6,6 +6,7 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
+- Can we try make the text feel a little larger + in your face? My thought is ro make the video circle a bit smaller and the text a bit larger so it's more evenly weighted.
 - fix Alpen logo getting cut off vertically, what the fuck
 
 #### TODO LATER
@@ -31,6 +32,12 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - all .css files originate from me
 
 #### CHANGELOG
+
+_1.5.1_
+
+- mock up options for paint stroke on landing page bottom contact section
+- change header logo to "B" instead of "BS"
+- make header logo a little bigger
 
 _1.5.0_
 
