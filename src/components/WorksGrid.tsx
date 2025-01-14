@@ -31,7 +31,7 @@ const FilterButtons = ({ works, setFilteredWorks, ...props }) => {
   const allName = 'Show All';
   const featureName = 'Selected';
   const [tabActive, setTabActive] = useState(featureName);
-  const [firstClick, setFirstClick] = useState(false);
+  const [firstClick, setFirstClick] = useState(true);
   filterTypes.unshift(featureName);
   // filterTypes.unshift(allName)
   useEffect(() => {

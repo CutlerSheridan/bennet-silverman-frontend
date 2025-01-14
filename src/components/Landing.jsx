@@ -19,13 +19,12 @@ const Landing = () => {
           <p>
             <span aria-hidden="true"></span>
             is a comedy filmmaker based in Los Angeles and a Seattle boy at
-            heart. He parlayed his award-winning viral shorts into directing for{' '}
+            heart. He parlayed his award-winning shorts into directing for{' '}
             <span className="landing-emphasis">Jimmy Kimmel Live!</span>,{' '}
             <span className="landing-emphasis">Nickelodeon</span>, and serving
             as an EP + director for 10ish seasons of very funny episodic series
-            on streaming platforms that don’t exist anymore (may they rest in
-            peace). He also brings his EP skills to commercials, writing +
-            directing things with people and brands like{' '}
+            for streaming platforms that no longer exist. He also writes and
+            directs commercials, collaborating with people and brands like{' '}
             <span className="landing-emphasis">Sony Pictures</span>,{' '}
             <span className="landing-emphasis">Dwayne Johnson</span>,{' '}
             <span className="landing-emphasis">Shakira</span>,{' '}
@@ -35,8 +34,8 @@ const Landing = () => {
             <span className="landing-emphasis">Portal A</span>,{' '}
             <span className="landing-emphasis">DriveTime.com</span>,{' '}
             <span className="landing-emphasis"> Anthony Edwards</span> and{' '}
-            <span className="landing-emphasis">Google Play</span> to name a few
-            too many. Oh yeah, and he’s a WGA-nominated writer. You can{' '}
+            <span className="landing-emphasis">Google Play</span>, to name a few
+            too many. And he’s a WGA-nominated writer. You can{' '}
             <Link to="/contact">contact him here</Link>. Nice.
           </p>
           {/* <Link to="/contact">

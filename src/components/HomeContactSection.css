@@ -17,7 +17,7 @@
   margin-bottom: -0.7rem;
 } */
 
-.homeContact-wrapper > p {
+/* .homeContact-wrapper > p {
   position: relative;
   margin: auto;
   width: fit-content;
@@ -26,6 +26,29 @@
   z-index: 1;
 }
 .homeContact-wrapper > p::before {
+  --paint-width: calc(100% + 2.4rem);
+  --paint-height: 125%;
+  content: '';
+  position: absolute;
+  top: calc((var(--paint-height) - 100%) / 2 * -1);
+  left: calc((var(--paint-width) - 100%) / 2 * -1);
+  width: var(--paint-width);
+  height: var(--paint-height);
+  background-image: url(../images/paint-stroke.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(68%) saturate(298%)
+    hue-rotate(1deg) brightness(97%) contrast(89%);
+  z-index: -1;
+} */
+.homeContact-wrapper button {
+  position: relative;
+  border: none;
+  color: var(--theme-ui-colors-background);
+  font-size: 2.2rem;
+}
+.homeContact-wrapper button::before {
   --paint-width: calc(100% + 2.4rem);
   --paint-height: 125%;
   content: '';
