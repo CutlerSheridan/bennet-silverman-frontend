@@ -38,6 +38,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_1.5.2.1_ (branch: main)
+
+- merge landing-resize
+- delete landing-resize
+
 _1.5.2_ (branch: landing-resize)
 
 - update bio copy
