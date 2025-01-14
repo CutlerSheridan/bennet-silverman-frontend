@@ -6,7 +6,6 @@ import Link from './Link';
 // import landingVideoMp4 from '../videos/test-vid.mp4';
 // import landingVideoWebm from '../videos/test-vid.webm';
 import Vimeo from '@u-wave/react-vimeo';
-// import chevron from '../images/chevron-down.svg';
 
 const Landing = () => {
   return (
@@ -85,7 +84,6 @@ const Landing = () => {
 
       <div className="landing-chevronWrapper">
         <i className="fa-solid fa-chevron-down"></i>
-        {/* <img src={chevron} alt="" /> */}
       </div>
     </section>
   );

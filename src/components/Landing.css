@@ -1,29 +1,16 @@
 .landing {
   --video-width: 110vw;
-  --max-video-width: 625px;
-  --video-top-offset: 70px;
+  --max-video-width: 700px;
+  --video-top-offset: 50px;
   position: relative;
   min-height: 100vh;
   border: 1px solid transparent; /* this prevents extra space at bottom of Landing */
-  /* border: 1px solid orange; */
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 850px) {
   .landing {
-    --video-width: 72vw;
-    --max-video-width: 800px;
-    --video-top-offset: 25px;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .landing {
-    --max-video-width: 975px;
+    --video-width: calc(600px + 18vw);
+    --max-video-width: 906px;
     --video-top-offset: -35px;
-  }
-}
-@media only screen and (min-width: 1250px) {
-  .landing {
-    --video-width: 72vw;
-    --video-top-offset: -115px;
   }
 }
 
@@ -43,11 +30,12 @@
   margin: 0 auto 0.5rem;
   padding: 0 0.7rem;
   width: fit-content;
-  font-size: 2.5rem;
+  font-family: 'League-Gothic';
+  font-size: min(calc(1.5rem + 4vw), 100px);
+  letter-spacing: 0.035em;
   text-transform: uppercase;
   color: var(--theme-ui-colors-background);
   z-index: 1;
-  font-family: 'League-Gothic';
 }
 .landing h1::before {
   --paint-size: 120%;
@@ -68,12 +56,13 @@
 .landing p {
   position: relative;
   margin: auto;
-  max-width: 50ch;
+  max-width: 75ch;
   text-align: center;
-  font-size: 1.3em;
+  font-size: calc(20px + 1vw);
   font-family: 'League-Gothic';
   font-weight: 400;
   z-index: 1;
+  letter-spacing: 0.015em;
 }
 .landing p > a {
   font-weight: bold;
@@ -83,70 +72,24 @@
 .landing-emphasis {
   font-weight: bold;
   font-family: 'SerialB';
-  letter-spacing: -0.04rem;
+  letter-spacing: -0.02em;
   text-transform: uppercase;
-  /* font-size: 1.3em; */
-  font-size: 20px;
-}
-@media only screen and (min-width: 500px) {
-  .landing h1 {
-    font-size: 3.5rem;
-  }
-  .landing p {
-    max-width: 80ch;
-  }
-}
-@media only screen and (min-width: 800px) {
-  .landing-infoWrapper {
-    margin-left: 0%;
-    margin-top: 22vw;
-  }
-  .landing h1 {
-    font-size: 3.5rem;
-  }
-  .landing p {
-    max-width: 73ch;
-    font-size: 1.2em;
-  }
-  .landing-emphasis {
-    font-size: 24px;
-  }
+  font-size: min(calc(18px + 0.6vw), 30px);
 }
 @media only screen and (min-width: 850px) {
-  .landing h1 {
-    font-size: 3.75rem;
+  .landing-infoWrapper {
+    margin-left: 0%;
+    margin-top: min(20vw, 22vh);
+    padding-left: 2.2rem;
   }
   .landing p {
-    font-size: 1.3em;
+    font-size: min(calc(15px + 1vw), 35px);
   }
 }
 @media only screen and (min-width: 1000px) {
   .landing-infoWrapper {
-    margin-left: 5%;
-    margin-top: 20vw;
+    margin-left: 6%;
     padding: inherit;
-  }
-  .landing h1 {
-    font-size: 4.35rem;
-  }
-  .landing p {
-    font-size: 1.35em;
-  }
-}
-@media only screen and (min-width: 1250px) {
-  .landing-infoWrapper {
-    margin-left: 8%;
-    margin-top: 25vh;
-    padding: inherit;
-  }
-  .landing h1 {
-    font-size: 5.3rem;
-    letter-spacing: 0.3rem;
-  }
-  .landing p {
-    max-width: 81ch;
-    letter-spacing: 0.02rem;
-    font-size: 1.5em;
   }
 }
 /* INFO TEXT END */
@@ -175,11 +118,10 @@
 }
 .landing-video {
   position: relative; /* this keeps Bennet's name on top of video */
-  width: 178%;
+  width: 178%; /* this makes video's rectangular aspect ratio fill circle vertically */
   height: 100%;
   left: -39.5%;
   object-fit: cover;
-  /* object-position: center; */
   border-radius: 1000rem;
   z-index: -1;
   box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.3);
@@ -190,7 +132,6 @@
   left: calc(50% - 4.5ch - 18px); /* 18px = left padding + border */
   top: -90%;
   width: fit-content;
-  /* font-size: 1em; */
   z-index: 1;
 }
 .landing-videoLink::before {
@@ -205,39 +146,15 @@
   border-radius: 5rem;
   z-index: -1;
 }
-@media only screen and (min-width: 800px) {
+.landing-videoLink a > button {
+  font-size: min(max(calc(15px + 1vw), 18px), 24px);
+}
+@media only screen and (min-width: 850px) {
   .landing-videoWrapper {
-    top: var(--video-top-offset);
-    left: 40%;
+    left: 50%;
   }
   .landing-videoLink {
     top: -8rem;
-  }
-  .landing-videoLink a > button {
-    font-size: 1.3em;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .landing-videoWrapper {
-    top: var(--video-top-offset);
-    left: 40%;
-    min-width: 756px;
-    min-height: 756px;
-  }
-  .landing-videoLink {
-    top: -10rem;
-  }
-  .landing-videoLink a > button {
-    font-size: 1.5em;
-  }
-}
-@media only screen and (min-width: 1250px) {
-  .landing-videoWrapper {
-    top: var(--video-top-offset);
-    left: 43%;
-  }
-  .landing-videoLink {
-    top: -10rem;
   }
 }
 /* VIDEO END */
@@ -246,7 +163,7 @@
 .landing-chevronWrapper {
   display: none;
   position: absolute;
-  bottom: 4rem;
+  bottom: 2rem;
   width: 100%;
   text-align: center;
   font-size: 4rem;
@@ -269,24 +186,9 @@
     transform: translateY(0);
   }
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 850px) {
   .landing-chevronWrapper {
     display: block;
   }
 }
-@media only screen and (min-width: 1000px) {
-  .landing-chevronWrapper {
-    bottom: 2rem;
-    font-size: 5rem;
-  }
-}
-/* .landing-chevronWrapper img {
-  object-fit: fill;
-  width: 100%;
-  height: 100%;
-  fill: red;
-  stroke: red;
-  filter: invert(73%) sepia(75%) saturate(280%) hue-rotate(359deg)
-    brightness(96%) contrast(90%);
-} */
 /* CHEVRON END */

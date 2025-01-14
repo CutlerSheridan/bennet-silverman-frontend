@@ -16,14 +16,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 ##### Behavior
 
 - stop hamburger links from loading twice
-- get rid of chevron svg + css if unused
 - make sure <Link> is only used for _internal_ links (e.g. not instagram)
 
 ##### Style
 
-- make look better on portrait iPad
 - clean up comments
-- ? add current page indication
 
 ##### Notes
 
@@ -37,6 +34,17 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - recommend keeping selected video count to multiples of 3
 
 #### CHANGELOG
+
+_1.5.3_ (branch: landing-resize)
+
+- adjust hero video size
+- adjust hero video placement
+- make all landing text more responsive
+- adjust landing text placement
+- get rid of a tooooon of media breakpoints
+- change all 800px landing breakpoints to 850
+- adjust chevron breakpoints
+- get rid of chevron svg + css
 
 _1.5.2.1_ (branch: main)
 
