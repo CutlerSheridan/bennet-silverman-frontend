@@ -34,8 +34,8 @@ const Landing = () => {
             <span className="landing-emphasis">DriveTime.com</span>,{' '}
             <span className="landing-emphasis"> Anthony Edwards</span> and{' '}
             <span className="landing-emphasis">Google Play</span>, to name a few
-            too many. And he’s a WGA-nominated writer. You can{' '}
-            <Link to="/contact">contact him here</Link>. Nice.
+            too many. And he’s a WGA-nominated writer. You can contact him{' '}
+            <a href="/contact">here.</a> Nice.
           </p>
           {/* <Link to="/contact">
             <Button

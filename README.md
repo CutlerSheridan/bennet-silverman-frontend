@@ -6,9 +6,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- Can we try make the text feel a little larger + in your face? My thought is ro make the video circle a bit smaller and the text a bit larger so it's more evenly weighted.
-- fix Alpen logo getting cut off vertically, what the fuck
-
 #### TODO LATER
 
 ##### Features
@@ -34,6 +31,13 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - recommend keeping selected video count to multiples of 3
 
 #### CHANGELOG
+
+_1.5.4_ (branch: main)
+
+- fix Alpen logo getting cut off vertically, what the fuck
+  - had to add `object-fit: contain`
+- match contact company logo sizes
+- flip landing page layout
 
 _1.5.3_ (branch: landing-resize)
 

@@ -39,7 +39,7 @@ const IndexPage = ({ location, path }) => {
         </Box>
       </BannerLoadedContext.Provider>
 
-      <HomeContactSection />
+      {/* <HomeContactSection /> */}
     </div>
   );
 };

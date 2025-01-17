@@ -76,47 +76,21 @@ body {
   > div:first-of-type
   > div:first-of-type
   > div:first-of-type
-  > div:first-of-type {
-  position: relative;
-}
-
-.mainBody
-  > div:first-of-type
-  > div:first-of-type
-  > div:first-of-type
   > div:first-of-type
   > *:nth-child(4) {
   display: none;
 }
-.mainBody
-  > div:first-of-type
-  > div:first-of-type
-  > div:first-of-type
-  > div:first-of-type::before,
-.mainBody
-  > div:first-of-type
-  > div:first-of-type
-  > div:first-of-type
-  > div:first-of-type::after {
-  content: '——';
-  letter-spacing: -0.2rem;
-  font-size: 1.5rem;
+
+a[class*='FilterButtons']:active {
+  color: blue;
 }
-@media only screen and (min-width: 640px) {
-  .mainBody
-    > div:first-of-type
-    > div:first-of-type
-    > div:first-of-type
-    > div:first-of-type::before,
-  .mainBody
-    > div:first-of-type
-    > div:first-of-type
-    > div:first-of-type
-    > div:first-of-type::after {
-    content: '——';
-    letter-spacing: -0.2rem;
-    font-size: 2.1rem;
-  }
+a[class*='FilterButtons']::after {
+  background-image: url('../images/paint-stroke.png');
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: center;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(68%) saturate(298%)
+    hue-rotate(1deg) brightness(97%) contrast(89%);
 }
 /* WORKS END */
 
@@ -197,6 +171,28 @@ div[class*='ContactPage'] {
 }
 div[class*='ContactPage']
   .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+  max-width: 150px;
+}
+/* div[class*='ContactPage']
+  .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
   max-width: 155px;
+} */
+main
+  > div
+  > div[class*='ContactPage']
+  > div:not(:first-of-type)
+  > div[class*='ContactPage']
+  .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+  max-width: 172px;
+}
+main
+  > div
+  > div[class*='ContactPage']
+  > div:not(:first-of-type)
+  > div[class*='ContactPage']
+  .gatsby-image-wrapper.gatsby-image-wrapper-constrained
+  img {
+  object-fit: contain !important;
+  cursor: pointer;
 }
 /* CONTACT PAGE END */

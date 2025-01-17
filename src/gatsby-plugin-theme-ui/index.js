@@ -208,7 +208,7 @@ const newTheme = {
         ':hover': {
           opacity: 0.8,
         },
-        transition: 'opacity .5s ease',
+        transition: 'opacity .2s ease',
         letterSpacing: '.1rem',
       },
     },
