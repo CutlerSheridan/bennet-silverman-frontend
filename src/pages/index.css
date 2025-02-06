@@ -1,10 +1,4 @@
 @font-face {
-  font-family: 'Xband-Rough';
-  src: url('../../public/fonts/xband-rough.ttf');
-  font-weight: 400;
-  font-display: block;
-}
-@font-face {
   font-family: 'SerialB';
   src: url('../../public/fonts/SerialB/SerialB-Black.ttf');
   font-weight: 600;
@@ -35,15 +29,8 @@
   font-display: block;
 }
 @font-face {
-  font-family: 'Staatliches';
-  src: url('../../public/fonts/Staatliches-Regular.ttf');
-  font-weight: 400;
-  /* font-display: block; */
-}
-@font-face {
   font-family: 'League-Gothic';
   src: url('../../public/fonts/LeagueGothic-Regular-VariableFont_wdth.ttf');
-  /* font-weight: 400; */
   font-stretch: 25% 175%;
   font-display: block;
 }
@@ -59,10 +46,6 @@ body {
 @media only screen and (min-width: 600px) {
   :root {
     box-shadow: inset 0 0 30px 30px rgb(0, 0, 0, 0.15);
-    /* background: linear-gradient(
-      var(--theme-ui-colors-background),
-      #0f381b
-    ); 0f441f */
   }
 }
 
@@ -115,7 +98,6 @@ h2[class*='ContactPage'] {
 }
 /* Below selector only targets 'CONTACT' heading */
 main > div > h2[class*='ContactPage'] {
-  /* margin: auto; */
   font-size: 3rem;
 }
 main > div > h2[class*='ContactPage']::before {
@@ -136,9 +118,6 @@ main > div > h2[class*='ContactPage']::before {
   z-index: -1;
 }
 
-/* Below selector only targets Bennet's email under CONTACT */
-/* main > div:first-of-type > div:first-of-type h2[class*='ContactPage'] {
-} */
 main > div > div[class*='ContactPage'] {
   padding-top: 16px;
 }
@@ -147,9 +126,6 @@ div[class*='ContactPage'] p {
   font-family: 'SerialB';
   font-weight: bold;
   letter-spacing: 0.1rem;
-}
-main > div > div[class*='ContactPage'] {
-  /* max-width: 80%; */
 }
 @media only screen and (min-width: 640px) {
   /* Below targets contact grid */
@@ -173,10 +149,6 @@ div[class*='ContactPage']
   .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
   max-width: 150px;
 }
-/* div[class*='ContactPage']
-  .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
-  max-width: 155px;
-} */
 main
   > div
   > div[class*='ContactPage']

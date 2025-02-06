@@ -93,12 +93,6 @@ const ContactPage: React.FC<PageProps> = ({ location }) => {
           </Box>
         </Grid>
       </Box>
-
-      {/* <Box mt={[4,6]}>
-				<FlexCenter sx={{ fontSize: [5, 6], }}>
-					<WebLinks sx={{ width: [150, 250] }} show={["Instagram", "Email"]} />
-				</FlexCenter>
-			</Box> */}
     </Container>
   );
 };

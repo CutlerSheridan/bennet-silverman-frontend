@@ -6,8 +6,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
-- clean up comments
-
 #### TODO LATER
 
 ##### Features
@@ -31,6 +29,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - recommend keeping selected video count to multiples of 3
 
 #### CHANGELOG
+
+_2.0.1_
+
+- clean up comments
+- delete unused files
 
 _2.0.0_
 

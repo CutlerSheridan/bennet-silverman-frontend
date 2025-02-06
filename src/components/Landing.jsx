@@ -1,10 +1,7 @@
 /** @jsx jsx */
 import './Landing.css';
 import { jsx, Button } from 'theme-ui';
-// import FlexCenter from '../components/FlexCenter';
 import Link from './Link';
-// import landingVideoMp4 from '../videos/test-vid.mp4';
-// import landingVideoWebm from '../videos/test-vid.webm';
 import Vimeo from '@u-wave/react-vimeo';
 
 const Landing = () => {
@@ -37,26 +34,11 @@ const Landing = () => {
             too many. And he’s a WGA-nominated writer. You can contact him{' '}
             <a href="/contact">here.</a> Nice.
           </p>
-          {/* <Link to="/contact">
-            <Button
-              sx={{
-                fontSize: [3, 4],
-                variant: 'buttons.outlined',
-              }}
-            >
-              Contact
-            </Button>
-          </Link> */}
         </div>
       </div>
 
       <div className="landing-videoWrapper">
-        {/* <video autoPlay playing muted loop playsInline>
-          <source src={landingVideoWebm} type="video/webm" />
-          <source src={landingVideoMp4} type="video/mp4" />
-        </video> */}
         <Vimeo
-          // video="https://vimeo.com/347348513"
           video="https://player.vimeo.com/video/1053935337"
           className="landing-video"
           autoplay

@@ -9,7 +9,6 @@ const HomeContactSection = () => {
     <div className="homeContact-wrapper">
       {/* <p>Reach out to Bennet.</p>
       <p>You know you want to.</p> */}
-      {/* <p>Reach out to Bennet</p> */}
       <FlexCenter mt={[3, 4]} p={[1, 1, 0]}>
         <Link to="/contact">
           <Button
