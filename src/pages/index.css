@@ -67,10 +67,16 @@ body {
 a[class*='FilterButtons']:active {
   color: blue;
 }
-a[class*='FilterButtons']::after {
+/* a[class*='FilterButtons']::after {
   background-image: url('../images/paint-stroke.png');
   background-repeat: no-repeat;
-  /* background-size: contain; */
+  background-position: center;
+  filter: brightness(0) saturate(100%) invert(73%) sepia(68%) saturate(298%)
+    hue-rotate(1deg) brightness(97%) contrast(89%);
+} */
+.mainBody > div > div > div > div > a::after {
+  background-image: url('../images/paint-stroke.png');
+  background-repeat: no-repeat;
   background-position: center;
   filter: brightness(0) saturate(100%) invert(73%) sepia(68%) saturate(298%)
     hue-rotate(1deg) brightness(97%) contrast(89%);

@@ -30,6 +30,13 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.0.5_
+
+- darken background so overscroll matches shaded page edge
+- remove WorksGrid link styling in SquiggleLink.tsx so each button's ::after background is only controlled by index.css
+- improve filter button selector
+  - these last two notes should make selected tab show up once deployed—for some reason, after deploying, the filter buttons did not have the words "FilterButtons" in their classes
+
 _2.0.4_
 
 - relocate font files
