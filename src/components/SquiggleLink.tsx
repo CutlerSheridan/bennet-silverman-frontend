@@ -39,16 +39,7 @@ export default function SquiggleLink({ children, active = false, ...props }) {
           opacity: active ? '100%' : '0%',
           width: active ? '130%' : 0,
           height: '100%',
-          // backgroundPosition: '0 100%',
-          // backgroundRepeat: 'repeat-x',
-          // backgroundColor: 'transparent',
           backgroundSize: '100% 100%',
-
-          // backgroundImage: paintStroke,
-          // backgroundRepeat: 'no-repeat',
-          // backgroundPosition: 'center',
-          // filter:
-          //   'brightness(0) saturate(100%) invert(73%) sepia(68%) saturate(298%) hue-rotate(1deg) brightness(97%) contrast(89%)',
           zIndex: '-1',
         },
         '@media only screen and (hover: hover)': {

@@ -30,6 +30,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.0.6_
+
+- clean up comments
+
 _2.0.5_
 
 - darken background so overscroll matches shaded page edge
