@@ -23,12 +23,16 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - Not familiar with Gatsby or Sass so everything bootstrapped from there
 - all .css files originate from me
 
-##### TELL BENNET
+##### NOTES FOR BENNET
 
 - for landing video, he should have a video on vimeo called "current reel," then also have one called "2024 directing reel" or whatever that's the same video, but current reel should always be updated and it'll auto-update on the site
 - recommend keeping selected video count to multiples of 3
 
 #### CHANGELOG
+
+_2.0.3_
+
+- adjust instructions for Bennet
 
 _2.0.2_
 
