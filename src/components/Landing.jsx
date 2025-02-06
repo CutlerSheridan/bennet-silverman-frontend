@@ -56,7 +56,8 @@ const Landing = () => {
           <source src={landingVideoMp4} type="video/mp4" />
         </video> */}
         <Vimeo
-          video="https://vimeo.com/347348513"
+          // video="https://vimeo.com/347348513"
+          video="https://player.vimeo.com/video/1053935337"
           className="landing-video"
           autoplay
           playing

@@ -6,6 +6,8 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### TODO NEXT
 
+- clean up comments
+
 #### TODO LATER
 
 ##### Features
@@ -16,8 +18,6 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - make sure <Link> is only used for _internal_ links (e.g. not instagram)
 
 ##### Style
-
-- clean up comments
 
 ##### Notes
 
@@ -31,6 +31,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 - recommend keeping selected video count to multiples of 3
 
 #### CHANGELOG
+
+_2.0.0_
+
+- swap in final splash video
 
 _1.5.4_ (branch: main)
 
