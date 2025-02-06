@@ -30,6 +30,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.0.2_
+
+- fix "view reel" url
+
 _2.0.1_
 
 - clean up comments

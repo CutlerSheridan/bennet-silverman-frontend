@@ -52,7 +52,7 @@ const Landing = () => {
           height="100%"
         />
         <div className="landing-videoLink">
-          <Link href="https://www.vimeo.com">
+          <Link href="https://player.vimeo.com/video/1053935337">
             <Button
               sx={{
                 fontSize: [3, 4],
