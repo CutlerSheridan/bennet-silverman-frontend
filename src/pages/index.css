@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'SerialB';
-  src: url('../../public/fonts/SerialB/SerialB-Black.ttf');
+  src: url('../../static/fonts/SerialB/SerialB-Black.ttf');
   font-weight: 600;
   font-display: block;
 }
 @font-face {
   font-family: 'SerialB';
-  src: url('../../public/fonts/SerialB/SerialB-BoldBlur.ttf');
+  src: url('../../static/fonts/SerialB/SerialB-BoldBlur.ttf');
   font-weight: 500;
   font-display: block;
 }
 @font-face {
   font-family: 'SerialB';
-  src: url('../../public/fonts/SerialB/SerialB-RegularBlur.ttf');
+  src: url('../../static/fonts/SerialB/SerialB-RegularBlur.ttf');
   font-weight: 400;
   font-display: block;
 }
 @font-face {
   font-family: 'SerialB';
-  src: url('../../public/fonts/SerialB/SerialB-Light.ttf');
+  src: url('../../static/fonts/SerialB/SerialB-Light.ttf');
   font-weight: 300;
   font-display: block;
 }
 @font-face {
   font-family: 'SerialB';
-  src: url('../../public/fonts/SerialB/SerialB-Thin.ttf');
+  src: url('../../static/fonts/SerialB/SerialB-Thin.ttf');
   font-weight: 200;
   font-display: block;
 }
 @font-face {
   font-family: 'League-Gothic';
-  src: url('../../public/fonts/LeagueGothic-Regular-VariableFont_wdth.ttf');
+  src: url('../../static/fonts/LeagueGothic-Regular-VariableFont_wdth.ttf');
   font-stretch: 25% 175%;
   font-display: block;
 }

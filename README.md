@@ -30,6 +30,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.0.4_
+
+- relocate font files
+
 _2.0.3_
 
 - adjust instructions for Bennet
