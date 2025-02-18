@@ -30,6 +30,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.0.7_
+
+- change href for View Reel button
+
 _2.0.6_
 
 - clean up comments
