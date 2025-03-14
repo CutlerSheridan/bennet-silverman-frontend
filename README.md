@@ -30,6 +30,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.0.8_
+
+- fix prop passed to Vimeo player from string to boolean
+
 _2.0.7_
 
 - change href for View Reel button

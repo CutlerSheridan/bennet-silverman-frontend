@@ -47,7 +47,7 @@ const Landing = () => {
           loop
           playsInline
           responsive
-          controls="false"
+          controls={false}
           width="100%"
           height="100%"
         />
