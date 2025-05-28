@@ -1,8 +1,8 @@
 /** @jsx jsx */
 import './Landing.css';
 import { jsx, Button } from 'theme-ui';
-import Link from './Link';
-import Vimeo from '@u-wave/react-vimeo';
+// import Link from './Link';
+// import Vimeo from '@u-wave/react-vimeo';
 
 const Landing = () => {
   return (
@@ -32,12 +32,12 @@ const Landing = () => {
             <span className="landing-emphasis"> Anthony Edwards</span> and{' '}
             <span className="landing-emphasis">Google Play</span>, to name a few
             too many. And he’s a WGA-nominated writer. You can contact him{' '}
-            <a href="/contact">here.</a> Nice.
+            <a href="/contact">here</a>. Nice.
           </p>
         </div>
       </div>
 
-      <div className="landing-videoWrapper">
+      {/* <div className="landing-videoWrapper">
         <Vimeo
           video="https://player.vimeo.com/video/1053935337"
           className="landing-video"
@@ -63,7 +63,7 @@ const Landing = () => {
             </Button>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       <div className="landing-chevronWrapper">
         <i className="fa-solid fa-chevron-down"></i>

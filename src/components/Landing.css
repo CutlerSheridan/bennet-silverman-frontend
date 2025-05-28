@@ -16,12 +16,13 @@
 
 /* INFO TEXT START */
 .landing-infoWrapper {
-  padding: 0 1.3rem 2rem;
+  padding: 0 1.2rem 2rem;
   margin: auto;
-  margin-top: calc(
+  /* margin-top: calc(
     var(--video-top-offset) + min(var(--video-width), var(--max-video-width)) -
       40px
-  );
+  ); */
+  margin-top: 9rem;
   width: fit-content;
   text-align: left;
 }
@@ -78,9 +79,10 @@
 }
 @media only screen and (min-width: 850px) {
   .landing-infoWrapper {
-    margin-right: 0%;
-    margin-top: min(20vw, 22vh);
-    padding-right: 2.2rem;
+    /* margin-right: 0%; */
+    /* margin-top: min(20vw, 22vh); */
+    /* padding-right: 2.2rem; */
+    margin-top: 11rem;
   }
   .landing h1 {
     margin-bottom: 1.4rem;
@@ -91,7 +93,7 @@
 }
 @media only screen and (min-width: 1000px) {
   .landing-infoWrapper {
-    margin-right: 6%;
+    /* margin-right: 6%; */
     padding: inherit;
   }
 }
@@ -168,7 +170,7 @@
 .landing-chevronWrapper {
   display: none;
   position: absolute;
-  bottom: 2rem;
+  bottom: 0.2rem;
   width: 100%;
   text-align: center;
   font-size: 4rem;

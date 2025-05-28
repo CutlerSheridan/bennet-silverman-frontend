@@ -30,6 +30,12 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.1.0_
+
+- get rid of splash video (just commented it out)
+- center bio text horizontally and vertically (left old styles in comments in case we re-add video)
+- lower chevron
+
 _2.0.8_
 
 - fix prop passed to Vimeo player from string to boolean
