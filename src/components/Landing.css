@@ -57,7 +57,6 @@
 .landing p {
   position: relative;
   margin: auto;
-  padding: 0 1rem;
   max-width: 75ch;
   text-align: center;
   font-size: calc(20px + 1vw);
@@ -89,6 +88,7 @@
     margin-bottom: 1.4rem;
   }
   .landing p {
+    padding: 0 1rem;
     font-size: min(calc(15px + 3vw), 40px);
   }
 }

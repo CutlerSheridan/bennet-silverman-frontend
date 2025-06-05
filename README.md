@@ -30,6 +30,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.1.2_
+
+- make intro padding responsive
+
 _2.1.1_
 
 - make intro p font bigger
