@@ -30,6 +30,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.1.1_
+
+- make intro p font bigger
+- make intro h1 font bigger
+
 _2.1.0_
 
 - get rid of splash video (just commented it out)

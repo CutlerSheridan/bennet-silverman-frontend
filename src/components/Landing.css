@@ -32,7 +32,7 @@
   padding: 0 0.7rem;
   width: fit-content;
   font-family: 'League-Gothic';
-  font-size: min(calc(1.5rem + 4vw), 100px);
+  font-size: min(calc(1.5rem + 5vw), 100px);
   letter-spacing: 0.035em;
   text-transform: uppercase;
   color: var(--theme-ui-colors-background);
@@ -57,6 +57,7 @@
 .landing p {
   position: relative;
   margin: auto;
+  padding: 0 1rem;
   max-width: 75ch;
   text-align: center;
   font-size: calc(20px + 1vw);
@@ -75,20 +76,20 @@
   font-family: 'SerialB';
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  font-size: min(calc(18px + 0.6vw), 30px);
+  font-size: min(calc(18px + 0.7vw), 40px);
 }
 @media only screen and (min-width: 850px) {
   .landing-infoWrapper {
     /* margin-right: 0%; */
     /* margin-top: min(20vw, 22vh); */
     /* padding-right: 2.2rem; */
-    margin-top: 11rem;
+    margin-top: 10rem;
   }
   .landing h1 {
     margin-bottom: 1.4rem;
   }
   .landing p {
-    font-size: min(calc(15px + 1vw), 35px);
+    font-size: min(calc(15px + 3vw), 40px);
   }
 }
 @media only screen and (min-width: 1000px) {
