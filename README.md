@@ -30,6 +30,11 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.1.3_
+
+- adjust line-height of intro
+- move intro higher
+
 _2.1.2_
 
 - make intro padding responsive

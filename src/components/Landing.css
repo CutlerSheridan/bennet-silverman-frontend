@@ -75,14 +75,14 @@
   font-family: 'SerialB';
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  font-size: min(calc(18px + 0.7vw), 40px);
+  font-size: min(calc(18px + 0.8vw), 40px);
 }
 @media only screen and (min-width: 850px) {
   .landing-infoWrapper {
     /* margin-right: 0%; */
     /* margin-top: min(20vw, 22vh); */
     /* padding-right: 2.2rem; */
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
   .landing h1 {
     margin-bottom: 1.4rem;
@@ -90,6 +90,10 @@
   .landing p {
     padding: 0 1rem;
     font-size: min(calc(15px + 3vw), 40px);
+    line-height: 3.3rem;
+  }
+  .landing-emphasis {
+    line-height: 1rem;
   }
 }
 @media only screen and (min-width: 1000px) {
