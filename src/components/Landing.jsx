@@ -31,7 +31,7 @@ const Landing = () => {
             <span className="landing-emphasis">DriveTime.com</span>,{' '}
             <span className="landing-emphasis"> Anthony Edwards</span> and{' '}
             <span className="landing-emphasis">Royal Kingdom</span>, to name a
-            few too many. Oh! He's also one of the creative minds bhind the
+            few too many. Oh! He's also one of the creative minds behind the
             sports + comedy studio{' '}
             <a href="https://benched.co">
               <span className="landing-emphasis">Benched</span>

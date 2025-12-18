@@ -30,6 +30,10 @@ Backend repo [here](https://github.com/CutlerSheridan/bennet-silverman-backend).
 
 #### CHANGELOG
 
+_2.1.41_
+
+- fix typo in bio
+
 _2.1.4_
 
 - revise bio
