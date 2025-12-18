@@ -17,10 +17,10 @@ const Landing = () => {
             is a comedy filmmaker based in Los Angeles and a Seattle boy at
             heart. He parlayed his award-winning shorts into directing for{' '}
             <span className="landing-emphasis">Jimmy Kimmel Live!</span>,{' '}
-            <span className="landing-emphasis">Nickelodeon</span>, and serving
-            as an EP + director for 10ish seasons of very funny episodic series
-            for streaming platforms that no longer exist. He also writes and
-            directs commercials, collaborating with{' '}
+            <span className="landing-emphasis">Nickelodeon</span>, and EP slash
+            direction 10+ seasons of very funny episodic series for streaming
+            platforms that no longer exist. He also writes and directs
+            commercials, collaborating with{' '}
             <span className="landing-emphasis">Sony Pictures</span>,{' '}
             <span className="landing-emphasis">Dwayne Johnson</span>,{' '}
             <span className="landing-emphasis">Shakira</span>,{' '}
@@ -28,7 +28,6 @@ const Landing = () => {
             <span className="landing-emphasis">Major League Baseball</span>,{' '}
             <span className="landing-emphasis">Lenovo</span>,{' '}
             <span className="landing-emphasis">Portal A</span>,{' '}
-            <span className="landing-emphasis">DriveTime.com</span>,{' '}
             <span className="landing-emphasis"> Anthony Edwards</span> and{' '}
             <span className="landing-emphasis">Royal Kingdom</span>, to name a
             few too many. Oh! He's also one of the creative minds behind the
@@ -36,7 +35,7 @@ const Landing = () => {
             <a href="https://benched.co">
               <span className="landing-emphasis">Benched</span>
             </a>
-            . And he’s a WGA-nominated writer. You can contact him{' '}
+            and a WGA-nominated writer. You can contact him{' '}
             <a href="/contact">here</a>. Nice.
           </p>
         </div>
