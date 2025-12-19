@@ -34,7 +34,7 @@ const Landing = () => {
             sports + comedy studio{' '}
             <a href="https://benched.co">
               <span className="landing-emphasis">Benched</span>
-            </a>
+            </a>{' '}
             and a WGA-nominated writer. You can contact him{' '}
             <a href="/contact">here</a>. Nice.
           </p>
