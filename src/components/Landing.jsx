@@ -14,29 +14,26 @@ const Landing = () => {
         <div className="landing-textAndContactWrapper">
           <p>
             <span aria-hidden="true"></span>
-            is a comedy filmmaker based in Los Angeles and a Seattle boy at
-            heart. He parlayed his award-winning shorts into directing for{' '}
-            <span className="landing-emphasis">Jimmy Kimmel Live!</span>,{' '}
-            <span className="landing-emphasis">Nickelodeon</span>, and EP slash
-            directing 10+ seasons of very funny episodic series for streaming
-            platforms that no longer exist. He also writes and directs
-            commercials, collaborating with{' '}
+            is a Seattle-born, LA-based comedy writer-director. Award-winning
+            shorts launched him into directing for Jimmy Kimmel Live! and
+            Nickelodeon, as well as executive producing and directing 10+
+            seasons of episodic comedy for streaming platforms that no longer
+            exist, collecting a WGA nomination, three Streamys, and a DGA card
+            on the way. On the commercial side, he's written and directed
+            campaigns with{' '}
             <span className="landing-emphasis">Sony Pictures</span>,{' '}
             <span className="landing-emphasis">Dwayne Johnson</span>,{' '}
             <span className="landing-emphasis">Shakira</span>,{' '}
             <span className="landing-emphasis">Target</span>,{' '}
-            <span className="landing-emphasis">Major League Baseball</span>,{' '}
-            <span className="landing-emphasis">Lenovo</span>,{' '}
+            <span className="landing-emphasis">Keke Palmer</span>,{' '}
             <span className="landing-emphasis">Portal A</span>,{' '}
-            <span className="landing-emphasis"> Anthony Edwards</span> and{' '}
-            <span className="landing-emphasis">Royal Kingdom</span>, to name a
-            few too many. He's one of the creative minds behind the sports +
-            comedy studio{' '}
+            <span className="landing-emphasis">Anthony Edwards</span>, and{' '}
+            <span className="landing-emphasis">Royal Kingdom</span>. He's a
+            co-founder of the sports + comedy studio{' '}
             <a href="https://benched.co">
               <span className="landing-emphasis">Benched</span>
-            </a>{' '}
-            and a WGA-nominated writer, too. You can contact him{' '}
-            <a href="/contact">here</a>. Nice.
+            </a>
+            . Reach him <a href="/contact">here</a>. Nice.
           </p>
         </div>
       </div>
