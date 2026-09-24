@@ -30,8 +30,8 @@ const Landing = () => {
             <span className="landing-emphasis">Anthony Edwards</span>, and{' '}
             <span className="landing-emphasis">Royal Kingdom</span>. He's a
             co-founder of the sports + comedy studio{' '}
-            <a href="https://benched.co">
-              <span className="landing-emphasis">Benched</span>
+            <a href="https://ballverse.com">
+              <span className="landing-emphasis">BALLVERSE</span>
             </a>
             . Reach him <a href="/contact">here</a>. Nice.
           </p>
